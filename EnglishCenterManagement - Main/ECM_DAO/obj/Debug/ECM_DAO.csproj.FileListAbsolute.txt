@@ -1,0 +1,57 @@
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_DAO\bin\Debug\ECM_DAO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_DAO\bin\Debug\ECM_DAO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_DAO\bin\Debug\ECM_DTO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_DAO\bin\Debug\ECM_DTO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_DAO\obj\Debug\ECM_DAO.csprojResolveAssemblyReference.cache
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_DAO\obj\Debug\ECM_DAO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_DAO\obj\Debug\ECM_DAO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ECM_DAO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ECM_DAO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ECM_DTO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ECM_DTO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\obj\Debug\ECM_DAO.csprojResolveAssemblyReference.cache
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\obj\Debug\ECM_DAO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\obj\Debug\ECM_DAO.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ECM_DAO.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ECM_DAO.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ECM_DTO.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ECM_DTO.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\obj\Debug\ECM_DAO.csprojResolveAssemblyReference.cache
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\obj\Debug\ECM_DAO.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\obj\Debug\ECM_DAO.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.Utils.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.Data.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.Utils.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.Data.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_DAO\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll

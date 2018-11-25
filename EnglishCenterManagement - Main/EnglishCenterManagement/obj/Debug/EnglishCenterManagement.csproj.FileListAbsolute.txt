@@ -1,0 +1,517 @@
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.exe.config
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.exe
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.pdb
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.BonusSkins.v18.1.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Data.v18.1.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Utils.v18.1.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraBars.v18.1.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Data.v18.1.xml
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Utils.v18.1.xml
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraBars.v18.1.xml
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.csprojResolveAssemblyReference.cache
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.Form1.resources
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.Properties.Resources.resources
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.csproj.GenerateResource.Cache
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.exe.licenses
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.exe
+D:\1. ProjectVS\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.exe.config
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.exe
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.exe
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.BonusSkins.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Data.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Images.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Utils.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraBars.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraLayout.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraNavBar.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Data.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Utils.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraBars.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraLayout.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraNavBar.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.csprojResolveAssemblyReference.cache
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmMain.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmQuanLyHocVien.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.Properties.Resources.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.csproj.GenerateResource.Cache
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.exe.licenses
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraGrid.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraPrinting.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.RichEdit.v18.1.Core.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraTreeList.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Office.v18.1.Core.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraGrid.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraPrinting.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.RichEdit.v18.1.Core.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.XtraTreeList.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Office.v18.1.Core.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Office.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Office.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Office.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Office.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ECM_BUS.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ECM_DTO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ECM_DAO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ECM_BUS.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ECM_DTO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ECM_DAO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.CodeParser.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.DataAccess.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Xpo.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.DataAccess.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\DevExpress.Xpo.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.DataAccess.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.DataAccess.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.DataAccess.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.DataAccess.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\de\DevExpress.Xpo.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\es\DevExpress.Xpo.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ja\DevExpress.Xpo.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\EnglishCenterManagement\bin\Debug\ru\DevExpress.Xpo.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.exe.config
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.exe
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.exe
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.BonusSkins.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.CodeParser.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Data.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.DataAccess.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Images.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Utils.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Xpo.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraBars.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraGrid.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraLayout.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraNavBar.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraPrinting.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_BUS.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_DTO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_DAO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.RichEdit.v18.1.Core.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Office.v18.1.Core.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraTreeList.v18.1.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_BUS.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_DTO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Data.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.DataAccess.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Utils.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Xpo.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraBars.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraGrid.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraLayout.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraNavBar.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraPrinting.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_DAO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.RichEdit.v18.1.Core.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Office.v18.1.Core.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraTreeList.v18.1.xml
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.DataAccess.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.DataAccess.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.DataAccess.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.DataAccess.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Xpo.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Xpo.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Xpo.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Xpo.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraGrid.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraLayout.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraNavBar.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraPrinting.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.RichEdit.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Office.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Office.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Office.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Office.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraTreeList.v18.1.resources.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.csprojResolveAssemblyReference.cache
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmMain.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmQuanLyHocVien.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.Properties.Resources.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.csproj.GenerateResource.Cache
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.exe.licenses
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmQuanLyNhanVien.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmDangNhap.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucLogin.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmQuanLyTaiKhoan.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLHV_DanhSach.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLNV_GiaoVien.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLNV_TrungTam.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLHV_Diem.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmThemHocVien.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmThemGiaoVien.resources
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmSuaHocVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.exe.config
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.exe
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.exe
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\EnglishCenterManagement.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.BonusSkins.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.CodeParser.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Data.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.DataAccess.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Images.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Utils.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Xpo.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraBars.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraGrid.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraLayout.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraNavBar.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraPrinting.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_BUS.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_DTO.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_DAO.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.RichEdit.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Office.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraTreeList.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_BUS.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_DTO.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Data.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.DataAccess.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Utils.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Xpo.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraBars.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraGrid.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraLayout.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraNavBar.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraPrinting.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ECM_DAO.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.RichEdit.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Office.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraTreeList.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.DataAccess.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.DataAccess.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.DataAccess.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.DataAccess.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Xpo.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Xpo.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Xpo.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Xpo.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraLayout.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraLayout.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraLayout.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraLayout.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Office.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Office.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Office.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Office.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.csprojResolveAssemblyReference.cache
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmDangNhap.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmMain.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmQuanLyHocVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmQuanLyNhanVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmQuanLyTaiKhoan.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmSuaHocVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmThemGiaoVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.Properties.Resources.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmThemHocVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucLogin.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLHV_DanhSach.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLHV_Diem.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLNV_GiaoVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLNV_TrungTam.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.csproj.GenerateResource.Cache
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.exe.licenses
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevComponents.DotNetBar2.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevComponents.DotNetBar2.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmQuanLyKhoaHoc.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmThemNhanVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmThemTaiKhoan.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.subForm_TaoTK.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmQuanLyLopHoc.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmSuaGiaoVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLHV_DSHocViennghi.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLNV_DSNhanVienNghi.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmSuaNhanVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Charts.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.PivotGrid.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.RichEdit.v18.1.Export.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Utils.v18.1.UI.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraCharts.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraGauges.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraReports.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraReports.v18.1.Extensions.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraRichEdit.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraVerticalGrid.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.DataAccess.v18.1.UI.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraCharts.v18.1.Wizard.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraCharts.v18.1.Extensions.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraPivotGrid.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Diagram.v18.1.Core.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraDiagram.v18.1.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.PivotGrid.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Utils.v18.1.UI.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraCharts.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraGauges.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraReports.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraReports.v18.1.Extensions.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraRichEdit.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraVerticalGrid.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.DataAccess.v18.1.UI.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraCharts.v18.1.Wizard.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraPivotGrid.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.Diagram.v18.1.Core.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\DevExpress.XtraDiagram.v18.1.xml
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.PivotGrid.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.PivotGrid.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.PivotGrid.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.PivotGrid.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Utils.v18.1.UI.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Utils.v18.1.UI.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Utils.v18.1.UI.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Utils.v18.1.UI.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraCharts.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraCharts.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraCharts.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraCharts.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraGauges.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraGauges.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraGauges.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraGauges.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraReports.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraReports.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraReports.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraReports.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraReports.v18.1.Extensions.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraVerticalGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.DataAccess.v18.1.UI.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.DataAccess.v18.1.UI.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.DataAccess.v18.1.UI.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.DataAccess.v18.1.UI.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraCharts.v18.1.Wizard.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.XtraPivotGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.XtraPivotGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.XtraPivotGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.XtraPivotGrid.v18.1.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\de\DevExpress.Diagram.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\es\DevExpress.Diagram.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ja\DevExpress.Diagram.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\ru\DevExpress.Diagram.v18.1.Core.resources.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmThemKhoaHocChoHocVien.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.rptInHoaDon.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.WaitingForm.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmHelp.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmLapBienLai.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmQuanLyTGB.resources

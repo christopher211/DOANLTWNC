@@ -1,0 +1,27 @@
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_BUS\bin\Debug\ECM_BUS.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_BUS\bin\Debug\ECM_BUS.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_BUS\bin\Debug\ECM_DAO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_BUS\bin\Debug\ECM_DTO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_BUS\bin\Debug\ECM_DAO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_BUS\bin\Debug\ECM_DTO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_BUS\obj\Debug\ECM_BUS.csprojResolveAssemblyReference.cache
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_BUS\obj\Debug\ECM_BUS.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement\ECM_BUS\obj\Debug\ECM_BUS.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_BUS.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_BUS.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_DAO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_DTO.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_DAO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_DTO.pdb
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\obj\Debug\ECM_BUS.csprojResolveAssemblyReference.cache
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\obj\Debug\ECM_BUS.dll
+C:\Users\CHRISTOPHER\Desktop\New folder (3)\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\obj\Debug\ECM_BUS.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_BUS.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_BUS.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_DAO.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_DTO.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_DAO.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\bin\Debug\ECM_DTO.pdb
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\obj\Debug\ECM_BUS.csprojResolveAssemblyReference.cache
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\obj\Debug\ECM_BUS.dll
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\ECM_BUS\obj\Debug\ECM_BUS.pdb
