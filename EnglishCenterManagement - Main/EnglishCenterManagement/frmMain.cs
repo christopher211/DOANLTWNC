@@ -212,7 +212,27 @@ namespace EnglishCenterManagement
 
         private void btn_lich_tkb_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            if (isAdminDangNhap || isModDangNhap)
+            {
+                Loading.ShowLoading();
+                Form frm = this.CheckExist(typeof(frmQuanLyTGB));
+                if (frm != null)
+                {
+                    frm.Activate();
+                }
+                else
+                {
+                    frmQuanLyTGB f = new frmQuanLyTGB();
+                    f.MdiParent = this;
+                    f.Dock = DockStyle.Fill;
+                    f.Show();
+                }
+                Loading.HideLoading();
+            }
+            else
+            {
+                XtraMessageBox.Show("Không đủ quyền để truy cập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
         }
 
         private void btn_bienLai_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

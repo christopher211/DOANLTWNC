@@ -27,16 +27,34 @@ namespace ECM_DAO
                 tkb.MaLop = reader["MaLop"].ToString().Trim();
                 tkb.MaPhg = reader["MaPhg"].ToString().Trim();
                 tkb.MaNV = reader["MaNV"].ToString().Trim();
-                tkb.Thu = int.Parse(Utilities.ConvertToString(reader["Thu"].ToString(), "0"));
-                tkb.Ngay = int.Parse(Utilities.ConvertToString(reader["Ngay"].ToString(), "0"));
-                tkb.Thang = int.Parse(Utilities.ConvertToString(reader["Thang"].ToString(), "0"));
-                tkb.Nam = int.Parse(Utilities.ConvertToString(reader["Nam"].ToString(), "0"));
+                tkb.Thu = Utilities.ConvertToString(reader["Thu"].ToString(), "0");
+                tkb.Ngay = Utilities.ConvertToString(reader["Ngay"].ToString(), "0");
+                tkb.Thang = Utilities.ConvertToString(reader["Thang"].ToString(), "0");
+                tkb.Nam = Utilities.ConvertToString(reader["Nam"].ToString(), "0");
                 
                 lsTKB.Add(tkb);
             }
             reader.Close();
             connect.Close();
             return lsTKB;
+        }
+        public int AddTKB(TKB_DTO tkb)
+        {
+            string insert = "INSERT INTO ThoiKhoaBieu (MaLop, MaPhg, MaNV, Thu, Ngay, Thang, Nam, TrangThai) VALUES(@MaLop, @MaPhg, @MaNV, @Thu, @Ngay, @Thang, @Nam, 1)";
+
+            SqlParameter[] par = new SqlParameter[7];
+            par[0] = new SqlParameter("@MaLop", tkb.MaLop);
+            par[1] = new SqlParameter("@MaPhg", tkb.MaPhg);
+            par[2] = new SqlParameter("@MaNV", tkb.MaNV);
+            par[3] = new SqlParameter("@Thu", tkb.Thu);
+            par[4] = new SqlParameter("@Ngay", tkb.Ngay);
+            par[5] = new SqlParameter("@Thang", tkb.Thang);
+            par[6] = new SqlParameter("@Nam", tkb.Nam);
+
+            SqlConnection connect = DataProvider.TaoKetNoi();
+            int ketQua = DataProvider.ExecuteInsertQuery(insert, par, connect);
+            connect.Close();
+            return ketQua;
         }
     }
 }

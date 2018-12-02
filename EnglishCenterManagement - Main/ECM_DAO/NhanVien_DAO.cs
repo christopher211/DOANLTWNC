@@ -239,7 +239,7 @@ namespace ECM_DAO
         {
             SqlConnection connect = DataProvider.TaoKetNoi();
             List<NhanVien_DTO> listNV = new List<NhanVien_DTO>();
-            string truyvan = @"SELECT * FROM NhanVien WHERE TrangThai = 1 AND TrangThaiTK = 0 AND ChucVu in ('CV01', 'CV02', 'CV03')";
+            string truyvan = @"SELECT * FROM NhanVien WHERE TrangThai = 1 AND TrangThaiTK = 0 AND ChucVu in ('CV02', 'CV03')";
             SqlDataReader reader = DataProvider.TruyVanDuLieu(truyvan, connect);
             while (reader.Read())
             {

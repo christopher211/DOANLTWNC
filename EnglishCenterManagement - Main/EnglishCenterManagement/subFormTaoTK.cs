@@ -35,22 +35,36 @@ namespace EnglishCenterManagement
             }
             else
             {
-                if (tkDTO != null)
+                if(tkBUS.CheckUsername(txt_taoTenDangNhap.Text) == 1)
                 {
-                    GetDetail();
-
-                    int kq = tkBUS.AddTK(tkDTO);
-                    if (kq == 1)
+                    XtraMessageBox.Show("Tên đăng nhập đã tồn tại!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    if (txt_taoMatKhau.Text != txt_nhapLaiMK.Text)
                     {
-                        XtraMessageBox.Show("Tạo tài khoản thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        string manv = txt_manv.Text;
-                        tkBUS.UpdateTK(manv);
-                        nvBUS.danhsachNVChuaCoTaiKhoan();
-                        this.Dispose();
+                        XtraMessageBox.Show("Mật khẩu không khớp!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                     else
                     {
-                        XtraMessageBox.Show("Tạo không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        if (tkDTO != null)
+                        {
+                            GetDetail();
+
+                            int kq = tkBUS.AddTK(tkDTO);
+                            if (kq == 1)
+                            {
+                                XtraMessageBox.Show("Tạo tài khoản thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                string manv = txt_manv.Text;
+                                tkBUS.UpdateNVChuaCoTK(manv);
+                                nvBUS.danhsachNVChuaCoTaiKhoan();
+                                this.Dispose();
+                            }
+                            else
+                            {
+                                XtraMessageBox.Show("Tạo không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            }
+                        }
                     }
                 }
             }
@@ -69,6 +83,20 @@ namespace EnglishCenterManagement
         private void btn_dong_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void chk_showHide_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chk_showHide.Checked)
+            {
+                txt_taoMatKhau.Properties.UseSystemPasswordChar = false;
+                txt_nhapLaiMK.Properties.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txt_taoMatKhau.Properties.UseSystemPasswordChar = true;
+                txt_nhapLaiMK.Properties.UseSystemPasswordChar = true;
+            }
         }
     }
 }

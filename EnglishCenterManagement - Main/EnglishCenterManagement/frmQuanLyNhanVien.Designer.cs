@@ -65,6 +65,7 @@
             this.navBarControl1.Size = new System.Drawing.Size(140, 531);
             this.navBarControl1.TabIndex = 1;
             this.navBarControl1.Text = "navBarControl1";
+            this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.StandardSkinNavigationPaneViewInfoRegistrator("Summer 2008");
             // 
             // navBarGroup1
             // 
@@ -95,7 +96,7 @@
             // btn_qlnv_nghi
             // 
             this.btn_qlnv_nghi.Caption = "Danh sách nhân viên đã nghỉ";
-            this.btn_qlnv_nghi.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("navBarItem2.ImageOptions.LargeImage")));
+            this.btn_qlnv_nghi.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btn_qlnv_nghi.ImageOptions.LargeImage")));
             this.btn_qlnv_nghi.Name = "btn_qlnv_nghi";
             this.btn_qlnv_nghi.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.btn_qlnv_nghi_LinkClicked);
             // 

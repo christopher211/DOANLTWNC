@@ -61,7 +61,13 @@
     <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraReports.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraReports.v18.1.Extensions, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v18.1.Core, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraVerticalGrid.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -80,6 +86,12 @@
     </Compile>
     <Compile Include="frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoiMatKhau.Designer.cs">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
     </Compile>
     <Compile Include="frmHelp.cs">
       <SubType>Form</SubType>
@@ -104,6 +116,12 @@
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNKHeThongcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNKHeThongcs.Designer.cs">
+      <DependentUpon>frmNKHeThongcs.cs</DependentUpon>
     </Compile>
     <Compile Include="frmQuanLyHocVien.cs">
       <SubType>Form</SubType>
@@ -198,6 +216,12 @@
     <Compile Include="rptInHoaDon.Designer.cs">
       <DependentUpon>rptInHoaDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucKhoiPhucTK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucKhoiPhucTK.Designer.cs">
+      <DependentUpon>ucKhoiPhucTK.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucLogin.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -246,6 +270,12 @@
     <Compile Include="subFormTaoTK.Designer.cs">
       <DependentUpon>subFormTaoTK.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucQLTK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucQLTK.Designer.cs">
+      <DependentUpon>ucQLTK.cs</DependentUpon>
+    </Compile>
     <Compile Include="WaitingForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -255,14 +285,23 @@
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDoiMatKhau.resx">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHelp.resx">
       <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInHoaDon.resx">
+      <DependentUpon>frmInHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLapBienLai.resx">
       <DependentUpon>frmLapBienLai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNKHeThongcs.resx">
+      <DependentUpon>frmNKHeThongcs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyHocVien.resx">
       <DependentUpon>frmQuanLyHocVien.cs</DependentUpon>
@@ -320,6 +359,9 @@
     <EmbeddedResource Include="rptInHoaDon.resx">
       <DependentUpon>rptInHoaDon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucKhoiPhucTK.resx">
+      <DependentUpon>ucKhoiPhucTK.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucLogin.resx">
       <DependentUpon>ucLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -344,10 +386,14 @@
     <EmbeddedResource Include="subFormTaoTK.resx">
       <DependentUpon>subFormTaoTK.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucQLTK.resx">
+      <DependentUpon>ucQLTK.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WaitingForm.resx">
       <DependentUpon>WaitingForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

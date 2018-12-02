@@ -15,32 +15,49 @@ namespace EnglishCenterManagement
 {
     public partial class frmQuanLyTaiKhoan : DevExpress.XtraEditors.XtraForm
     {
-        List<TaiKhoan_DTO> lsTaiKhoan;
-
-        TaiKhoan_BUS tkBUS = new TaiKhoan_BUS();
-        TaiKhoan_DTO tkDTO = new TaiKhoan_DTO();
+        private ucQLTK ucTK;
+        private ucKhoiPhucTK ucKPTK;
 
         public frmQuanLyTaiKhoan()
         {
             InitializeComponent();
+            UnitForm();
         }
 
-        private void frmQuanLyTaiKhoan_Load(object sender, EventArgs e)
+        #region SwitchPanel
+
+        void UnitForm()
         {
-            LoadTK();
+            ucTK = new ucQLTK();
+            ucTK.Dock = DockStyle.Fill;
+
+            ucKPTK = new ucKhoiPhucTK();
+            ucKPTK.Dock = DockStyle.Fill;
+            
+            //ShowForm(ucQLHV_DS);
+        }
+        void ShowForm(DevExpress.XtraEditors.XtraUserControl uControl)
+        {
+            if (splitCC_quanLyTaiKhoan.Panel2.Controls.Count > 0)
+            {
+                splitCC_quanLyTaiKhoan.Panel2.Controls.RemoveAt(0);
+            }
+            uControl.Bounds = splitCC_quanLyTaiKhoan.Panel2.DisplayRectangle;
+            splitCC_quanLyTaiKhoan.Panel2.Controls.Add(uControl);
+        }
+        private void btn_qlTaiKhoan_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Loading.ShowLoading();
+            ShowForm(ucTK);
+            Loading.HideLoading();
+        }
+        private void btn_khoiPhucTK_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Loading.ShowLoading();
+            ShowForm(ucKPTK);
+            Loading.HideLoading();
         }
 
-        private void LoadTK()
-        {
-            lsTaiKhoan = new List<TaiKhoan_DTO>();
-            lsTaiKhoan = tkBUS.danhsachTK();
-
-            dgcontrol_taiKhoan.DataSource = lsTaiKhoan;
-        }
-        private void btn_themTaiKhoan_Click(object sender, EventArgs e)
-        {
-            frmThemTaiKhoan f = new frmThemTaiKhoan();
-            f.ShowDialog();
-        }
+        #endregion
     }
 }

@@ -53,6 +53,7 @@
             this.txt_manv = new DevExpress.XtraEditors.TextEdit();
             this.cbo_gioiTinh = new DevExpress.XtraEditors.ComboBoxEdit();
             this.dt_ngaySinh = new DevExpress.XtraEditors.DateEdit();
+            this.chk_giamDoc = new DevExpress.XtraEditors.CheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.lke_chucVu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngayLamViec.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngayLamViec.Properties)).BeginInit();
@@ -65,6 +66,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbo_gioiTinh.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngaySinh.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngaySinh.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chk_giamDoc.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl1
@@ -311,6 +313,14 @@
             this.dt_ngaySinh.Size = new System.Drawing.Size(191, 20);
             this.dt_ngaySinh.TabIndex = 96;
             // 
+            // chk_giamDoc
+            // 
+            this.chk_giamDoc.Location = new System.Drawing.Point(503, 233);
+            this.chk_giamDoc.Name = "chk_giamDoc";
+            this.chk_giamDoc.Properties.Caption = "Giám đốc";
+            this.chk_giamDoc.Size = new System.Drawing.Size(68, 19);
+            this.chk_giamDoc.TabIndex = 116;
+            // 
             // frmSuaNhanVien
             // 
             this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -318,6 +328,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 359);
+            this.Controls.Add(this.chk_giamDoc);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.lke_chucVu);
             this.Controls.Add(this.labelControl10);
@@ -363,6 +374,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbo_gioiTinh.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngaySinh.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngaySinh.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chk_giamDoc.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -394,5 +406,6 @@
         public DevExpress.XtraEditors.TextEdit txt_manv;
         public DevExpress.XtraEditors.ComboBoxEdit cbo_gioiTinh;
         public DevExpress.XtraEditors.DateEdit dt_ngaySinh;
+        private DevExpress.XtraEditors.CheckEdit chk_giamDoc;
     }
 }

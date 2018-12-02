@@ -75,20 +75,56 @@ namespace EnglishCenterManagement
             }
             else
             {
-                if (gvDTO != null)
+                if (dt_ngaySinh.DateTime.Year >= DateTime.Now.Year)
                 {
-                    GetDetail();
-
-                    int kq = gvBUS.AddGV(gvDTO);
-                    if (kq == 1)
+                    XtraMessageBox.Show("Năm sinh không được lớn hơn hoặc bằng năm hiện tại!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    if (dt_ngayLamViec.DateTime < DateTime.Now)
                     {
-                        XtraMessageBox.Show(string.Format("Thêm giáo viên mã {0} thành công!", gvDTO.MaNV), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        RefreshTextBox();
+                        XtraMessageBox.Show("Ngày bắt đầu làm việc không được nhỏ hơn ngày hiện tại!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                     else
                     {
-                        XtraMessageBox.Show("Thêm không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        gvDTO = null;
+                        if (txt_sdt.Text.Length < 10)
+                        {
+                            XtraMessageBox.Show("Số điện thoại phải đủ 10 số!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                        else
+                        {
+                            if (!txt_sdt.Text.StartsWith("0"))
+                            {
+                                XtraMessageBox.Show("Số điện thoại phải bắt đầu bằng số 0!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                            }
+                            else
+                            {
+                                if (Utilities.IsValidEmail(txt_email.Text.Trim()) == false)
+                                {
+                                    XtraMessageBox.Show("Địa chỉ email sai định dạng!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                }
+                                else
+                                {
+                                    if (gvDTO != null)
+                                    {
+                                        GetDetail();
+
+                                        int kq = gvBUS.AddGV(gvDTO);
+                                        if (kq == 1)
+                                        {
+                                            XtraMessageBox.Show(string.Format("Thêm giáo viên mã {0} thành công!", gvDTO.MaNV), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                            RefreshTextBox();
+                                        }
+                                        else
+                                        {
+                                            XtraMessageBox.Show("Thêm không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                            gvDTO = null;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

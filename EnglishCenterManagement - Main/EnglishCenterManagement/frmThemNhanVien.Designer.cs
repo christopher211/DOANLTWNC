@@ -53,6 +53,7 @@
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.lke_chucVu = new DevExpress.XtraEditors.LookUpEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.chk_giamDoc = new DevExpress.XtraEditors.CheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngayLamViec.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngayLamViec.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_diaChi.Properties)).BeginInit();
@@ -65,6 +66,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngaySinh.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngaySinh.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lke_chucVu.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chk_giamDoc.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl12
@@ -297,6 +299,9 @@
             this.lke_chucVu.Name = "lke_chucVu";
             this.lke_chucVu.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lke_chucVu.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MaCV", "Mã chức vụ", 15, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenCV", "Tên chức vụ", 25, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
             this.lke_chucVu.Properties.NullText = "";
             this.lke_chucVu.Size = new System.Drawing.Size(183, 20);
             this.lke_chucVu.TabIndex = 90;
@@ -313,6 +318,14 @@
             this.labelControl1.TabIndex = 91;
             this.labelControl1.Text = "THÊM NHÂN VIÊN";
             // 
+            // chk_giamDoc
+            // 
+            this.chk_giamDoc.Location = new System.Drawing.Point(503, 233);
+            this.chk_giamDoc.Name = "chk_giamDoc";
+            this.chk_giamDoc.Properties.Caption = "Giám đốc";
+            this.chk_giamDoc.Size = new System.Drawing.Size(68, 19);
+            this.chk_giamDoc.TabIndex = 92;
+            // 
             // frmThemNhanVien
             // 
             this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -320,6 +333,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 359);
+            this.Controls.Add(this.chk_giamDoc);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.lke_chucVu);
             this.Controls.Add(this.labelControl10);
@@ -365,6 +379,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngaySinh.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt_ngaySinh.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lke_chucVu.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chk_giamDoc.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -396,5 +411,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl10;
         private DevExpress.XtraEditors.LookUpEdit lke_chucVu;
         private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.CheckEdit chk_giamDoc;
     }
 }

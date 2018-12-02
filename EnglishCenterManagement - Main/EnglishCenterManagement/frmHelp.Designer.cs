@@ -119,6 +119,7 @@
             this.groupControl1.Size = new System.Drawing.Size(363, 223);
             this.groupControl1.TabIndex = 12;
             this.groupControl1.Text = "Quản lý nhân viên";
+            this.groupControl1.Click += new System.EventHandler(this.groupControl2_Click);
             // 
             // labelControl7
             // 
@@ -145,6 +146,7 @@
             this.groupControl2.Size = new System.Drawing.Size(363, 223);
             this.groupControl2.TabIndex = 13;
             this.groupControl2.Text = "Quản lý học viên";
+            this.groupControl2.Click += new System.EventHandler(this.groupControl2_Click);
             // 
             // labelControl6
             // 
@@ -246,6 +248,7 @@
             this.groupControl4.Size = new System.Drawing.Size(363, 223);
             this.groupControl4.TabIndex = 33;
             this.groupControl4.Text = "Quản lý lớp học";
+            this.groupControl4.Click += new System.EventHandler(this.groupControl2_Click);
             // 
             // labelControl16
             // 
@@ -303,6 +306,7 @@
             this.groupControl3.Size = new System.Drawing.Size(363, 223);
             this.groupControl3.TabIndex = 32;
             this.groupControl3.Text = "Quản lý khoá học";
+            this.groupControl3.Click += new System.EventHandler(this.groupControl2_Click);
             // 
             // frmHelp
             // 
@@ -318,7 +322,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmHelp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmHelp";
+            this.Text = "Help";
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.frmHelp_MouseClick);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmHelp_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmHelp_MouseMove);

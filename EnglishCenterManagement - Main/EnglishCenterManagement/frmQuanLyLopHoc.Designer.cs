@@ -582,7 +582,7 @@
             this.Controls.Add(this.dgcontrol_lopHoc);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmQuanLyLopHoc";
-            this.Text = "frmQuanLyLopHoc";
+            this.Text = "Quản lý lớp học";
             this.Load += new System.EventHandler(this.frmQuanLyLopHoc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgcontrol_lopHoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgview_lopHoc)).EndInit();

@@ -20,7 +20,7 @@ namespace EnglishCenterManagement
 
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
-            Application.Run(new frmQuanLyTGB());
+            Application.Run(new frmDangNhap());
         }
     }
 }

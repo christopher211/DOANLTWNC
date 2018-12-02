@@ -49,5 +49,10 @@ namespace EnglishCenterManagement
         {
             this.Close();
         }
+
+        private void groupControl2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

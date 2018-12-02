@@ -93,7 +93,7 @@ namespace EnglishCenterManagement
                     XtraMessageBox.Show(this, "Đăng nhập thành công với quyền Administrator", "Thông báo");
                     this.WindowState = FormWindowState.Minimized;
                     f.Enabled = true;
-                    f.BringToFront();        
+                    f.BringToFront();
                 }
                 else if(user_BUS.ModLogin(txt_tenDangNhap.Text , txt_matKhau.Text) == 1)
                 {

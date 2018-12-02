@@ -15,5 +15,10 @@ namespace ECM_BUS
             TKB_DAO tkbDAO = new TKB_DAO();
             return tkbDAO.LoadTKB(malop);
         }
+        public int AddTKB(TKB_DTO diem)
+        {
+            TKB_DAO tkbDAO = new TKB_DAO();
+            return tkbDAO.AddTKB(diem);
+        }
     }
 }

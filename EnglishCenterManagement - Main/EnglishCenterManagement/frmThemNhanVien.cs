@@ -58,7 +58,6 @@ namespace EnglishCenterManagement
         {
             string maTiepTheo = nvBUS.maNhanVienTiepTheo();
             txt_manv.Text = maTiepTheo;
-            lke_chucVu.EditValue = string.Empty;
             LoadDSCV();
         }
         private void LoadDSCV()
@@ -87,19 +86,62 @@ namespace EnglishCenterManagement
             }
             else
             {
-                if (nvDTO != null)
+                if (dt_ngaySinh.DateTime.Year >= DateTime.Now.Year)
                 {
-                    GetDetail();
-
-                    int kq = nvBUS.AddNV(nvDTO);
-                    if (kq == 1)
+                    XtraMessageBox.Show("Năm sinh không được lớn hơn hoặc bằng năm hiện tại!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    if (dt_ngayLamViec.DateTime < DateTime.Now)
                     {
-                        XtraMessageBox.Show(string.Format("Thêm nhân viên mã {0} thành công!", nvDTO.MaNV), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        RefreshTextBox();
+                        XtraMessageBox.Show("Ngày bắt đầu làm việc không được nhỏ hơn ngày hiện tại!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                     else
                     {
-                        XtraMessageBox.Show("Thêm không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);                        
+                        if (txt_sdt.Text.Length < 10)
+                        {
+                            XtraMessageBox.Show("Số điện thoại phải đủ 10 số!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                        else
+                        {
+                            if (!txt_sdt.Text.StartsWith("0"))
+                            {
+                                XtraMessageBox.Show("Số điện thoại phải bắt đầu bằng số 0!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                            }
+                            else
+                            {
+                                if (Utilities.IsValidEmail(txt_email.Text.Trim()) == false)
+                                {
+                                    XtraMessageBox.Show("Địa chỉ email sai định dạng!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                }
+                                else
+                                {
+                                    if(chk_giamDoc.Checked == false && lke_chucVu.ItemIndex == 0)
+                                    {
+                                        XtraMessageBox.Show("Không thể thêm chức vụ giám đốc cho nhân viên này!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    }
+                                    else
+                                    {
+                                        if (nvDTO != null)
+                                        {
+                                            GetDetail();
+
+                                            int kq = nvBUS.AddNV(nvDTO);
+                                            if (kq == 1)
+                                            {
+                                                XtraMessageBox.Show(string.Format("Thêm nhân viên mã {0} thành công!", nvDTO.MaNV), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                                RefreshTextBox();
+                                            }
+                                            else
+                                            {
+                                                XtraMessageBox.Show("Thêm không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -118,8 +160,8 @@ namespace EnglishCenterManagement
             nvDTO.NgayLamViec = DateTime.Parse(dt_ngayLamViec.EditValue.ToString());
             nvDTO.SDT = txt_sdt.Text;
             nvDTO.Email = txt_email.Text;
-            nvDTO.DiaChi = txt_diaChi.Text;            
-            nvDTO.ChucVu = lke_chucVu.EditValue.ToString();      
+            nvDTO.DiaChi = txt_diaChi.Text;
+            nvDTO.ChucVu = lke_chucVu.EditValue.ToString();
         }
         public void RefreshTextBox()
         {
@@ -145,7 +187,6 @@ namespace EnglishCenterManagement
         private void btn_lamLai_Click(object sender, EventArgs e)
         {
             RefreshTextBox();
-        }
-
+        }       
     }
 }

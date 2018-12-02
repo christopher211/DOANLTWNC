@@ -34,16 +34,17 @@
             this.cl_honv = new DevExpress.XtraGrid.Columns.GridColumn();
             this.cl_tennv = new DevExpress.XtraGrid.Columns.GridColumn();
             this.cl_chucVu = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.dgcontrol_chuaCoTK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgview_chuaCoTK)).BeginInit();
             this.SuspendLayout();
             // 
             // dgcontrol_chuaCoTK
             // 
-            this.dgcontrol_chuaCoTK.Location = new System.Drawing.Point(12, 137);
+            this.dgcontrol_chuaCoTK.Location = new System.Drawing.Point(12, 111);
             this.dgcontrol_chuaCoTK.MainView = this.dgview_chuaCoTK;
             this.dgcontrol_chuaCoTK.Name = "dgcontrol_chuaCoTK";
-            this.dgcontrol_chuaCoTK.Size = new System.Drawing.Size(630, 323);
+            this.dgcontrol_chuaCoTK.Size = new System.Drawing.Size(677, 349);
             this.dgcontrol_chuaCoTK.TabIndex = 0;
             this.dgcontrol_chuaCoTK.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.dgview_chuaCoTK});
@@ -101,19 +102,33 @@
             this.cl_chucVu.Visible = true;
             this.cl_chucVu.VisibleIndex = 3;
             // 
+            // labelControl8
+            // 
+            this.labelControl8.Appearance.Font = new System.Drawing.Font("Myriad Pro", 20F, System.Drawing.FontStyle.Bold);
+            this.labelControl8.Appearance.ForeColor = System.Drawing.Color.Green;
+            this.labelControl8.Appearance.Options.UseFont = true;
+            this.labelControl8.Appearance.Options.UseForeColor = true;
+            this.labelControl8.Location = new System.Drawing.Point(209, 12);
+            this.labelControl8.Name = "labelControl8";
+            this.labelControl8.Size = new System.Drawing.Size(294, 66);
+            this.labelControl8.TabIndex = 60;
+            this.labelControl8.Text = "DANH SÁCH NHÂN VIÊN \r\n    CHƯA CÓ TÀI KHOẢN";
+            // 
             // frmThemTaiKhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 472);
+            this.ClientSize = new System.Drawing.Size(703, 472);
+            this.Controls.Add(this.labelControl8);
             this.Controls.Add(this.dgcontrol_chuaCoTK);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "frmThemTaiKhoan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmThemTaiKhoan";
             this.Load += new System.EventHandler(this.frmThemTaiKhoan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgcontrol_chuaCoTK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgview_chuaCoTK)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -125,5 +140,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn cl_honv;
         private DevExpress.XtraGrid.Columns.GridColumn cl_tennv;
         private DevExpress.XtraGrid.Columns.GridColumn cl_chucVu;
+        private DevExpress.XtraEditors.LabelControl labelControl8;
     }
 }

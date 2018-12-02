@@ -470,7 +470,7 @@
             this.Controls.Add(this.groupControl2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmQuanLyKhoaHoc";
-            this.Text = "frmQuanLyKhoaHoc";
+            this.Text = "Quản lý khóa học";
             this.Load += new System.EventHandler(this.frmQuanLyKhoaHoc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgcontrol_khoaHoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgview_khoaHoc)).EndInit();

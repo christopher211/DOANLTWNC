@@ -139,7 +139,7 @@
             this.navBarControl1.Size = new System.Drawing.Size(155, 531);
             this.navBarControl1.TabIndex = 0;
             this.navBarControl1.Text = "navBarControl1";
-            this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.StandardSkinExplorerBarViewInfoRegistrator("Office 2016 Dark");
+            this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.StandardSkinNavigationPaneViewInfoRegistrator("Xmas 2008 Blue");
             // 
             // frmQuanLyHocVien
             // 
@@ -150,7 +150,7 @@
             this.Controls.Add(this.splitCC_quanLyHocVien);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmQuanLyHocVien";
-            this.Text = "frmQuanLyHocVien";
+            this.Text = "Quản lý học viên";
             ((System.ComponentModel.ISupportInitialize)(this.splitCC_quanLyHocVien)).EndInit();
             this.splitCC_quanLyHocVien.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
