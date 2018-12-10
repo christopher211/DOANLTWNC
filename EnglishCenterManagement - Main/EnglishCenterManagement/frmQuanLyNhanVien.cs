@@ -51,17 +51,26 @@ namespace EnglishCenterManagement
         
         private void btn_qlnv_tt_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
-            ShowForm(ucQLNV);           
+            Loading.ShowLoading();
+            ShowForm(ucQLNV);
+            ucQLNV.LoadDSNV_TT();
+            Loading.HideLoading();
         }
 
         private void btn_qlnv_gv_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
-            ShowForm(ucQLGV);           
+            Loading.ShowLoading();
+            ShowForm(ucQLGV);
+            ucQLGV.LoadDSNV_GV();
+            Loading.HideLoading();
         }
 
         private void btn_qlnv_nghi_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
-            ShowForm(ucQLNVNghi);           
+            Loading.ShowLoading();
+            ShowForm(ucQLNVNghi);
+            ucQLNVNghi.LoadDSNVDaNghi();
+            Loading.HideLoading();
         }
 
         #endregion

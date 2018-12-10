@@ -35,58 +35,6 @@ namespace ECM_DAO
 
             return lsKhoaHoc;
         }
-        public List<KhoaHoc_DTO> LoadDSKhoaHocTheoMaKH(string makh)
-        {
-            SqlConnection connect = DataProvider.TaoKetNoi();
-            List<KhoaHoc_DTO> khoaHoc = new List<KhoaHoc_DTO>();
-
-            string truyVan = "SELECT * FROM KhoaHoc WHERE MaKH LIKE N'%{0}%' AND NgayBatDau > GETDATE() AND TrangThai = 1";
-            SqlDataReader reader = DataProvider.TruyVanDuLieu(string.Format(truyVan, makh), connect);
-
-            while (reader.Read())
-            {
-                KhoaHoc_DTO kh = new KhoaHoc_DTO()
-                {
-                    MaKH = reader["MaKH"].ToString(),
-                    TenKH = reader["TenKH"].ToString(),
-                    NgayBatDau = DateTime.Parse(reader["NgayBatDau"].ToString()),
-                    NgayKetThuc = DateTime.Parse(reader["NgayKetThuc"].ToString()),
-                    HocPhi = int.Parse(reader["HocPhi"].ToString()),
-                    TrangThai = int.Parse(reader["TrangThai"].ToString())
-                };
-                khoaHoc.Add(kh);
-            }
-            reader.Close();
-            connect.Close();
-
-            return khoaHoc;
-        }
-        public List<KhoaHoc_DTO> LoadDSKhoaHocTheoTen(string tenkh)
-        {
-            SqlConnection connect = DataProvider.TaoKetNoi();
-            List<KhoaHoc_DTO> khoaHoc = new List<KhoaHoc_DTO>();
-
-            string truyVan = "SELECT * FROM KhoaHoc WHERE TenKH LIKE N'%{0}%' AND NgayBatDau > GETDATE() AND TrangThai = 1";
-            SqlDataReader reader = DataProvider.TruyVanDuLieu(string.Format(truyVan, tenkh), connect);
-
-            while (reader.Read())
-            {
-                KhoaHoc_DTO kh = new KhoaHoc_DTO()
-                {
-                    MaKH = reader["MaKH"].ToString(),
-                    TenKH = reader["TenKH"].ToString(),
-                    NgayBatDau = DateTime.Parse(reader["NgayBatDau"].ToString()),
-                    NgayKetThuc = DateTime.Parse(reader["NgayKetThuc"].ToString()),
-                    HocPhi = int.Parse(reader["HocPhi"].ToString()),
-                    TrangThai = int.Parse(reader["TrangThai"].ToString())
-                };
-                khoaHoc.Add(kh);
-            }
-            reader.Close();
-            connect.Close();
-
-            return khoaHoc;
-        }
         public string LayMaKHLonNhat()
         {
             string strTruyVan = "SELECT MAX(MaKH) FROM KhoaHoc";

@@ -530,7 +530,9 @@ D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main
 D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\log4net.dll
 D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\bin\Debug\log4net.xml
 D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmNKHeThongcs.resources
-D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmDoiMatKhau.resources
 D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.frmInHoaDon.resources
 D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucKhoiPhucTK.resources
 D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ucQLTK.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.subFormDoiMatKhau.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ReportWaitingForm.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.subFormDoiMatKhau_2.resources

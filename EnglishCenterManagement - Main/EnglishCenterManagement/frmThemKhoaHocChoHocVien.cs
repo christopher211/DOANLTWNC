@@ -54,10 +54,17 @@ namespace EnglishCenterManagement
 
         KhoaHoc_BUS khBUS = new KhoaHoc_BUS();
         KhoaHoc_DTO khDTO = new KhoaHoc_DTO();
+        private ucQLHV_DanhSach ucQLHV_DanhSach;
 
-        public frmThemKhoaHocChoHocVien()
+        //public frmThemKhoaHocChoHocVien()
+        //{
+        //    InitializeComponent();
+        //}
+
+        public frmThemKhoaHocChoHocVien(ucQLHV_DanhSach ucQLHV_DanhSach)
         {
             InitializeComponent();
+            this.ucQLHV_DanhSach = ucQLHV_DanhSach;
         }
 
         private void lke_khoaHoc_EditValueChanged(object sender, EventArgs e)
@@ -74,6 +81,7 @@ namespace EnglishCenterManagement
         private void frmThemKhoaHocChoHocVien_Load(object sender, EventArgs e)
         {
             lke_lopHoc.Enabled = false;
+            btn_lamLai.Enabled = false;
             LoadDSKhoaHoc();
         }
         private void LoadDSKhoaHoc()
@@ -122,6 +130,7 @@ namespace EnglishCenterManagement
                     if (kq == 1)
                     {
                         XtraMessageBox.Show(string.Format("Thêm khóa học cho học viên mã {0} thành công!", hvDTO.MSHV), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        ucQLHV_DanhSach.LoadDSHV();
                         this.Close();
                     }
                     else
@@ -134,6 +143,7 @@ namespace EnglishCenterManagement
         private void btn_thoat_Click(object sender, EventArgs e)
         {
             this.Close();
+            ucQLHV_DanhSach.LoadDSHV();
         }
         
     }

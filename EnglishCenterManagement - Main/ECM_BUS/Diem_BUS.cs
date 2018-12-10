@@ -15,16 +15,6 @@ namespace ECM_BUS
             Diem_DAO dDao = new Diem_DAO();
             return dDao.LoadDiemHV(malop);
         }
-        public List<Diem_DTO> danhSachDiemHVTheoHoTen(string malop, string hoten)
-        {
-            Diem_DAO dDao = new Diem_DAO();
-            return dDao.LoadDiemHVTheoHoTen(malop, hoten);
-        }
-        public List<Diem_DTO> danhSachDiemHVTheoMaHV(string malop, string mahv)
-        {
-            Diem_DAO dDao = new Diem_DAO();
-            return dDao.LoadDiemHVTheoMaHV(malop, mahv);
-        }
         public int addDiem(Diem_DTO diem)
         {
             Diem_DAO dDao = new Diem_DAO();

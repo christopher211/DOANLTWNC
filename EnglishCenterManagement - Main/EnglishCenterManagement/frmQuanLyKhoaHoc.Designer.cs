@@ -55,14 +55,6 @@
             this.btn_help = new DevExpress.XtraEditors.SimpleButton();
             this.btn_capNhatTGKH = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
-            this.btn_timTenKH = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-            this.btn_timMakh = new DevExpress.XtraEditors.SimpleButton();
-            this.txt_timTenKH = new DevExpress.XtraEditors.TextEdit();
-            this.txt_timMaKH = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.dgcontrol_khoaHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgview_khoaHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_hocPhi.Properties)).BeginInit();
@@ -76,17 +68,12 @@
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
-            this.groupControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timTenKH.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timMaKH.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_lamMoiKhoaHoc
             // 
             this.btn_lamMoiKhoaHoc.ImageOptions.Image = global::EnglishCenterManagement.Properties.Resources.refresh;
-            this.btn_lamMoiKhoaHoc.Location = new System.Drawing.Point(405, 24);
+            this.btn_lamMoiKhoaHoc.Location = new System.Drawing.Point(25, 76);
             this.btn_lamMoiKhoaHoc.Name = "btn_lamMoiKhoaHoc";
             this.btn_lamMoiKhoaHoc.Size = new System.Drawing.Size(93, 38);
             this.btn_lamMoiKhoaHoc.TabIndex = 3;
@@ -97,7 +84,7 @@
             // btn_suaKhoaHoc
             // 
             this.btn_suaKhoaHoc.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_suaKhoaHoc.ImageOptions.Image")));
-            this.btn_suaKhoaHoc.Location = new System.Drawing.Point(161, 25);
+            this.btn_suaKhoaHoc.Location = new System.Drawing.Point(124, 32);
             this.btn_suaKhoaHoc.Name = "btn_suaKhoaHoc";
             this.btn_suaKhoaHoc.Size = new System.Drawing.Size(93, 38);
             this.btn_suaKhoaHoc.TabIndex = 2;
@@ -110,7 +97,7 @@
             // btn_xoaKhoaHoc
             // 
             this.btn_xoaKhoaHoc.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_xoaKhoaHoc.ImageOptions.Image")));
-            this.btn_xoaKhoaHoc.Location = new System.Drawing.Point(283, 24);
+            this.btn_xoaKhoaHoc.Location = new System.Drawing.Point(124, 76);
             this.btn_xoaKhoaHoc.Name = "btn_xoaKhoaHoc";
             this.btn_xoaKhoaHoc.Size = new System.Drawing.Size(93, 38);
             this.btn_xoaKhoaHoc.TabIndex = 1;
@@ -121,7 +108,7 @@
             // btn_themKhoaHoc
             // 
             this.btn_themKhoaHoc.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_themKhoaHoc.ImageOptions.Image")));
-            this.btn_themKhoaHoc.Location = new System.Drawing.Point(39, 25);
+            this.btn_themKhoaHoc.Location = new System.Drawing.Point(25, 32);
             this.btn_themKhoaHoc.Name = "btn_themKhoaHoc";
             this.btn_themKhoaHoc.Size = new System.Drawing.Size(93, 38);
             this.btn_themKhoaHoc.TabIndex = 0;
@@ -152,6 +139,7 @@
             this.dgview_khoaHoc.GridControl = this.dgcontrol_khoaHoc;
             this.dgview_khoaHoc.Name = "dgview_khoaHoc";
             this.dgview_khoaHoc.OptionsEditForm.BindingMode = DevExpress.XtraGrid.Views.Grid.EditFormBindingMode.Direct;
+            this.dgview_khoaHoc.OptionsFind.AlwaysVisible = true;
             this.dgview_khoaHoc.OptionsFind.FindFilterColumns = "*ID;MSHV;Ho;Ten;GioiTinh;NgaySinh;SDT;Email;DiaChi;KhoaHoc;MaLop;";
             this.dgview_khoaHoc.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.dgview_khoaHoc.DoubleClick += new System.EventHandler(this.dgview_khoaHoc_DoubleClick);
@@ -334,9 +322,9 @@
             this.groupControl2.Controls.Add(this.txt_tenkh);
             this.groupControl2.Controls.Add(this.txt_hocPhi);
             this.groupControl2.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl2.Location = new System.Drawing.Point(413, 28);
+            this.groupControl2.Location = new System.Drawing.Point(413, 97);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(734, 117);
+            this.groupControl2.Size = new System.Drawing.Size(734, 124);
             this.groupControl2.TabIndex = 26;
             this.groupControl2.Text = "Chi tiết khóa học";
             // 
@@ -349,16 +337,16 @@
             this.groupControl1.Controls.Add(this.btn_themKhoaHoc);
             this.groupControl1.Controls.Add(this.btn_xoaKhoaHoc);
             this.groupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl1.Location = new System.Drawing.Point(413, 151);
+            this.groupControl1.Location = new System.Drawing.Point(12, 97);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(734, 70);
+            this.groupControl1.Size = new System.Drawing.Size(395, 124);
             this.groupControl1.TabIndex = 15;
             this.groupControl1.Text = "Chức năng";
             // 
             // btn_help
             // 
             this.btn_help.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_help.ImageOptions.Image")));
-            this.btn_help.Location = new System.Drawing.Point(690, 25);
+            this.btn_help.Location = new System.Drawing.Point(351, 81);
             this.btn_help.Name = "btn_help";
             this.btn_help.Size = new System.Drawing.Size(39, 38);
             this.btn_help.TabIndex = 5;
@@ -367,7 +355,7 @@
             // btn_capNhatTGKH
             // 
             this.btn_capNhatTGKH.ImageOptions.Image = global::EnglishCenterManagement.Properties.Resources.rotate;
-            this.btn_capNhatTGKH.Location = new System.Drawing.Point(526, 24);
+            this.btn_capNhatTGKH.Location = new System.Drawing.Point(223, 53);
             this.btn_capNhatTGKH.Name = "btn_capNhatTGKH";
             this.btn_capNhatTGKH.Size = new System.Drawing.Size(93, 38);
             this.btn_capNhatTGKH.TabIndex = 4;
@@ -379,91 +367,17 @@
             this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Green;
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(37, 28);
+            this.labelControl1.Location = new System.Drawing.Point(408, 29);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(350, 42);
             this.labelControl1.TabIndex = 30;
             this.labelControl1.Text = "DANH SÁCH KHÓA HỌC";
-            // 
-            // groupControl3
-            // 
-            this.groupControl3.Location = new System.Drawing.Point(288, 104);
-            this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(8, 8);
-            this.groupControl3.TabIndex = 31;
-            this.groupControl3.Text = "groupControl3";
-            // 
-            // groupControl4
-            // 
-            this.groupControl4.Controls.Add(this.btn_timTenKH);
-            this.groupControl4.Controls.Add(this.labelControl7);
-            this.groupControl4.Controls.Add(this.labelControl9);
-            this.groupControl4.Controls.Add(this.btn_timMakh);
-            this.groupControl4.Controls.Add(this.txt_timTenKH);
-            this.groupControl4.Controls.Add(this.txt_timMaKH);
-            this.groupControl4.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl4.Location = new System.Drawing.Point(12, 104);
-            this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(395, 117);
-            this.groupControl4.TabIndex = 32;
-            this.groupControl4.Text = "Tìm kiếm";
-            // 
-            // btn_timTenKH
-            // 
-            this.btn_timTenKH.Location = new System.Drawing.Point(287, 67);
-            this.btn_timTenKH.Name = "btn_timTenKH";
-            this.btn_timTenKH.Size = new System.Drawing.Size(55, 20);
-            this.btn_timTenKH.TabIndex = 30;
-            this.btn_timTenKH.Text = "Tìm";
-            this.btn_timTenKH.Click += new System.EventHandler(this.btn_timTenKH_Click);
-            // 
-            // labelControl7
-            // 
-            this.labelControl7.Location = new System.Drawing.Point(25, 44);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(60, 13);
-            this.labelControl7.TabIndex = 26;
-            this.labelControl7.Text = "Mã khóa học";
-            // 
-            // labelControl9
-            // 
-            this.labelControl9.Location = new System.Drawing.Point(25, 70);
-            this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(64, 13);
-            this.labelControl9.TabIndex = 27;
-            this.labelControl9.Text = "Tên khóa học";
-            // 
-            // btn_timMakh
-            // 
-            this.btn_timMakh.Location = new System.Drawing.Point(287, 41);
-            this.btn_timMakh.Name = "btn_timMakh";
-            this.btn_timMakh.Size = new System.Drawing.Size(55, 20);
-            this.btn_timMakh.TabIndex = 29;
-            this.btn_timMakh.Text = "Tìm";
-            this.btn_timMakh.Click += new System.EventHandler(this.btn_timMakh_Click);
-            // 
-            // txt_timTenKH
-            // 
-            this.txt_timTenKH.Location = new System.Drawing.Point(109, 67);
-            this.txt_timTenKH.Name = "txt_timTenKH";
-            this.txt_timTenKH.Size = new System.Drawing.Size(160, 20);
-            this.txt_timTenKH.TabIndex = 26;
-            // 
-            // txt_timMaKH
-            // 
-            this.txt_timMaKH.EditValue = "KH";
-            this.txt_timMaKH.Location = new System.Drawing.Point(109, 41);
-            this.txt_timMaKH.Name = "txt_timMaKH";
-            this.txt_timMaKH.Size = new System.Drawing.Size(160, 20);
-            this.txt_timMaKH.TabIndex = 0;
             // 
             // frmQuanLyKhoaHoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1159, 552);
-            this.Controls.Add(this.groupControl4);
-            this.Controls.Add(this.groupControl3);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.dgcontrol_khoaHoc);
@@ -486,12 +400,6 @@
             this.groupControl2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
-            this.groupControl4.ResumeLayout(false);
-            this.groupControl4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timTenKH.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timMaKH.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -522,14 +430,6 @@
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.GroupControl groupControl3;
-        private DevExpress.XtraEditors.GroupControl groupControl4;
-        private DevExpress.XtraEditors.SimpleButton btn_timTenKH;
-        private DevExpress.XtraEditors.SimpleButton btn_timMakh;
-        private DevExpress.XtraEditors.LabelControl labelControl7;
-        private DevExpress.XtraEditors.LabelControl labelControl9;
-        private DevExpress.XtraEditors.TextEdit txt_timTenKH;
-        private DevExpress.XtraEditors.TextEdit txt_timMaKH;
         private DevExpress.XtraEditors.SimpleButton btn_capNhatTGKH;
         private DevExpress.XtraEditors.SimpleButton btn_help;
     }

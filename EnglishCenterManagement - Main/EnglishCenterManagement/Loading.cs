@@ -16,6 +16,12 @@ namespace EnglishCenterManagement
             isdisplayed = true;
             SplashScreenManager.ShowForm(typeof(WaitingForm));
         }
+        public static void ShowReportLoading()
+        {
+            if (isdisplayed) return;
+            isdisplayed = true;
+            SplashScreenManager.ShowForm(typeof(ReportWaitingForm));
+        }        
         public static void HideLoading()
         {
             if (!isdisplayed) return;

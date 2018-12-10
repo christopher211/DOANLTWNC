@@ -41,64 +41,6 @@ namespace ECM_DAO
             connect.Close();
             return lsDiem;
         }
-
-        public List<Diem_DTO> LoadDiemHVTheoMaHV(string malop, string mahv)
-        {
-            SqlConnection connect = DataProvider.TaoKetNoi();
-            List<Diem_DTO> lsDiem = new List<Diem_DTO>();
-
-            string truyVan = "SELECT HocVien.MSHV, HocVien.Ho, HocVien.Ten, HocVien.MaKH, HocVien.MaLop, Diem.Nghe, Diem.Noi, Diem.Doc, Diem.Viet, Diem.DiemTB FROM Diem RIGHT JOIN HocVien ON Diem.MSHV = HocVien.MSHV AND Diem.MaKH = HocVien.MaKH WHERE HocVien.MaLop LIKE '%{0}%' AND HocVien.MSHV LIKE '%{1}%'";
-            SqlDataReader reader = DataProvider.TruyVanDuLieu(string.Format(truyVan, malop, mahv), connect);
-            while (reader.Read())
-            {
-                Diem_DTO diem = new Diem_DTO();
-
-                diem.MSHV = reader["MSHV"].ToString().Trim();
-                diem.MaKH = reader["MaKH"].ToString().Trim();
-                diem.Ho = reader["Ho"].ToString().Trim();
-                diem.Ten = reader["Ten"].ToString().Trim();
-                diem.MaLop = reader["MaLop"].ToString().Trim();
-                diem.Nghe = float.Parse(Utilities.ConvertToString(reader["Nghe"].ToString(), "0"));
-                diem.Noi = float.Parse(Utilities.ConvertToString(reader["Noi"].ToString(), "0"));
-                diem.Doc = float.Parse(Utilities.ConvertToString(reader["Doc"].ToString(), "0"));
-                diem.Viet = float.Parse(Utilities.ConvertToString(reader["Viet"].ToString(), "0"));
-                diem.DiemTB = float.Parse(Utilities.ConvertToString(reader["DiemTB"].ToString(), "0"));
-
-                lsDiem.Add(diem);
-            }
-            reader.Close();
-            connect.Close();
-            return lsDiem;
-        }
-
-        public List<Diem_DTO> LoadDiemHVTheoHoTen(string malop, string hoten)
-        {
-            SqlConnection connect = DataProvider.TaoKetNoi();
-            List<Diem_DTO> lsDiem = new List<Diem_DTO>();
-
-            string truyVan = "SELECT HocVien.MSHV, HocVien.Ho, HocVien.Ten, HocVien.MaKH, HocVien.MaLop, Diem.Nghe, Diem.Noi, Diem.Doc, Diem.Viet, Diem.DiemTB FROM Diem RIGHT JOIN HocVien ON Diem.MSHV = HocVien.MSHV AND Diem.MaKH = HocVien.MaKH WHERE HocVien.MaLop LIKE '%{0}%' AND HocVien.Ho+' '+HocVien.Ten LIKE N'%{1}%'";
-            SqlDataReader reader = DataProvider.TruyVanDuLieu(string.Format(truyVan, malop, hoten), connect);
-            while (reader.Read())
-            {
-                Diem_DTO diem = new Diem_DTO();
-
-                diem.MSHV = reader["MSHV"].ToString().Trim();
-                diem.MaKH = reader["MaKH"].ToString().Trim();
-                diem.Ho = reader["Ho"].ToString().Trim();
-                diem.Ten = reader["Ten"].ToString().Trim();
-                diem.MaLop = reader["MaLop"].ToString().Trim();
-                diem.Nghe = float.Parse(Utilities.ConvertToString(reader["Nghe"].ToString(), "0"));
-                diem.Noi = float.Parse(Utilities.ConvertToString(reader["Noi"].ToString(), "0"));
-                diem.Doc = float.Parse(Utilities.ConvertToString(reader["Doc"].ToString(), "0"));
-                diem.Viet = float.Parse(Utilities.ConvertToString(reader["Viet"].ToString(), "0"));
-                diem.DiemTB = float.Parse(Utilities.ConvertToString(reader["DiemTB"].ToString(), "0"));
-
-                lsDiem.Add(diem);
-            }
-            reader.Close();
-            connect.Close();
-            return lsDiem;
-        }
         public int AddDiem(Diem_DTO diem)
         {
             string insert = "INSERT INTO Diem (MSHV, MaKH, MaLop, Nghe, Noi, Doc, Viet, DiemTB, TrangThai) VALUES(@MSHV, @MaKH, @MaLop, @Nghe, @Noi, @Doc, @Viet, @DiemTB, 1)";

@@ -29,81 +29,12 @@ namespace EnglishCenterManagement
         private void ucQLHV_DSHocViennghi_Load(object sender, EventArgs e)
         {
             LoadDSHVDaNghi();
-            LoadDSLop();
-            LoadDSKhoaHoc();
         }
-        private void LoadDSHVDaNghi()
+        public void LoadDSHVDaNghi()
         {
             lsHocVien = new List<HocVien_DTO>();
             lsHocVien = hvBUS.danhSachHVDaNghi();
             dgcontrol_hocVien.DataSource = lsHocVien;
-        }
-        private void LoadDSLop()
-        {
-            Lop_BUS lopBUS = new Lop_BUS();
-            Lop_DTO lopDAO = new Lop_DTO();
-            lsLop = lopBUS.DanhSachLop();
-
-            lke_lopHoc.Properties.DataSource = lsLop;
-            lke_lopHoc.Properties.DisplayMember = "MaLop";
-            lke_lopHoc.Properties.ValueMember = "MaLop";
-
-            lke_lopHoc.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MaLop", "Mã Lớp Học", 10));
-            lke_lopHoc.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenLop", "Tên Lớp Học", 20));
-        }
-        private void LoadDSKhoaHoc()
-        {
-            KhoaHoc_BUS khBUS = new KhoaHoc_BUS();
-            KhoaHoc_DTO khDTO = new KhoaHoc_DTO();
-            lsKhoaHoc = khBUS.DanhSachKH();
-
-            lke_khoaHoc.Properties.DataSource = lsKhoaHoc;
-            lke_khoaHoc.Properties.DisplayMember = "MaKH";
-            lke_khoaHoc.Properties.ValueMember = "MaKH";
-
-            lke_khoaHoc.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MaKH", "Mã Khóa Học", 10));
-            lke_khoaHoc.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenKH", "Tên Khóa Học", 20));
-        }
-        private void LoadDSHVDaNghiTheoMSHV()
-        {
-            //List<HocVien_DTO> lsHocVien = new List<HocVien_DTO>();
-            lsHocVien = hvBUS.danhsachHVDaNghiTheoMSHV(txt_timHVMSHV.Text);
-            dgcontrol_hocVien.DataSource = lsHocVien;
-        }
-        private void LoadDSHVDaNghiTheoHoTen()
-        {
-            lsHocVien = hvBUS.danhsachHVDaNghiTheoHoTen(txt_timHVHoTen.Text);
-            dgcontrol_hocVien.DataSource = lsHocVien;
-        }
-        private void LoadDSHVDaNghiTheoKhoaHoc()
-        {
-            lsHocVien = hvBUS.danhsachHVDaNghiTheoKhoaHoc(lke_khoaHoc.Text);
-            dgcontrol_hocVien.DataSource = lsHocVien;
-        }
-        private void LoadDSHVDaNghiTheoLop()
-        {
-            lsHocVien = hvBUS.danhsachHVDaNghiTheoLop(lke_lopHoc.Text);
-            dgcontrol_hocVien.DataSource = lsHocVien;
-        }
-
-        private void btn_timHVMSHV_Click(object sender, EventArgs e)
-        {
-            LoadDSHVDaNghiTheoMSHV();
-        }
-
-        private void btn_timHVHoTen_Click(object sender, EventArgs e)
-        {
-            LoadDSHVDaNghiTheoHoTen();
-        }
-
-        private void btn_timHVLop_Click(object sender, EventArgs e)
-        {
-            LoadDSHVDaNghiTheoLop();
-        }
-
-        private void btn_timHVKhoaHoc_Click(object sender, EventArgs e)
-        {
-            LoadDSHVDaNghiTheoKhoaHoc();
         }
 
         private void btn_khoiPhucHV_Click(object sender, EventArgs e)

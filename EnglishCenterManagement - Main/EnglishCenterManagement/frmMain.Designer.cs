@@ -47,6 +47,8 @@
             this.btn_lichHocBu = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.btn_help = new DevExpress.XtraBars.BarButtonItem();
+            this.barEditItem1 = new DevExpress.XtraBars.BarEditItem();
+            this.repositoryItemHypertextLabel1 = new DevExpress.XtraEditors.Repository.RepositoryItemHypertextLabel();
             this.rib_menu = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.rib_chucNang = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -54,8 +56,6 @@
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barEditItem1 = new DevExpress.XtraBars.BarEditItem();
-            this.repositoryItemHypertextLabel1 = new DevExpress.XtraEditors.Repository.RepositoryItemHypertextLabel();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemHypertextLabel1)).BeginInit();
             this.SuspendLayout();
@@ -234,6 +234,17 @@
             this.btn_help.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_help.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_help_ItemClick);
             // 
+            // barEditItem1
+            // 
+            this.barEditItem1.Caption = "barEditItem1";
+            this.barEditItem1.Edit = this.repositoryItemHypertextLabel1;
+            this.barEditItem1.Id = 18;
+            this.barEditItem1.Name = "barEditItem1";
+            // 
+            // repositoryItemHypertextLabel1
+            // 
+            this.repositoryItemHypertextLabel1.Name = "repositoryItemHypertextLabel1";
+            // 
             // rib_menu
             // 
             this.rib_menu.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -251,9 +262,7 @@
             this.rib_chucNang.ItemLinks.Add(this.btn_quanLyKhoaHoc);
             this.rib_chucNang.ItemLinks.Add(this.btn_quanLyLopHoc);
             this.rib_chucNang.ItemLinks.Add(this.btn_lich_tkb);
-            this.rib_chucNang.ItemLinks.Add(this.btn_lichHocBu);
             this.rib_chucNang.ItemLinks.Add(this.btn_bienLai);
-            this.rib_chucNang.ItemLinks.Add(this.btn_thongKe);
             this.rib_chucNang.Name = "rib_chucNang";
             this.rib_chucNang.Text = "Chức năng";
             // 
@@ -284,17 +293,6 @@
             // 
             this.ribbonPageGroup3.ItemLinks.Add(this.btn_quanLyTaiKhoan);
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
-            // 
-            // barEditItem1
-            // 
-            this.barEditItem1.Caption = "barEditItem1";
-            this.barEditItem1.Edit = this.repositoryItemHypertextLabel1;
-            this.barEditItem1.Id = 18;
-            this.barEditItem1.Name = "barEditItem1";
-            // 
-            // repositoryItemHypertextLabel1
-            // 
-            this.repositoryItemHypertextLabel1.Name = "repositoryItemHypertextLabel1";
             // 
             // frmMain
             // 

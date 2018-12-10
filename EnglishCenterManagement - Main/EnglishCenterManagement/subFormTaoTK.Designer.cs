@@ -159,6 +159,7 @@
             this.Controls.Add(this.txt_taoMatKhau);
             this.Controls.Add(this.txt_taoTenDangNhap);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "subForm_TaoTK";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.txt_taoTenDangNhap.Properties)).EndInit();

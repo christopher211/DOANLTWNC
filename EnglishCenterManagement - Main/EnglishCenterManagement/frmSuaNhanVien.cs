@@ -50,10 +50,17 @@ namespace EnglishCenterManagement
 
         NhanVien_BUS nvBUS = new NhanVien_BUS();
         NhanVien_DTO nvDTO = new NhanVien_DTO();
+        private ucQLNV_TrungTam ucQLNV_TrungTam;
 
-        public frmSuaNhanVien()
+        //public frmSuaNhanVien()
+        //{
+        //    InitializeComponent();
+        //}
+
+        public frmSuaNhanVien(ucQLNV_TrungTam ucQLNV_TrungTam)
         {
             InitializeComponent();
+            this.ucQLNV_TrungTam = ucQLNV_TrungTam;
         }
 
         private void frmSuaNhanVien_Load(object sender, EventArgs e)
@@ -87,6 +94,7 @@ namespace EnglishCenterManagement
             nvDTO.SDT = txt_sdt.Text;
             nvDTO.Email = txt_email.Text;
             nvDTO.DiaChi = txt_diaChi.Text;
+            nvDTO.ChucVu = lke_chucVu.Text.Trim();
         }
         private void btn_luu_Click(object sender, EventArgs e)
         {
@@ -106,6 +114,7 @@ namespace EnglishCenterManagement
                     if (kq == 1)
                     {
                         XtraMessageBox.Show(string.Format("Sửa nhân viên mã {0} thành công!", nvDTO.MaNV), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        ucQLNV_TrungTam.LoadDSNV_TT();
                         this.Close();
                     }
                     else
@@ -118,6 +127,7 @@ namespace EnglishCenterManagement
 
         private void btn_thoat_Click(object sender, EventArgs e)
         {
+            ucQLNV_TrungTam.LoadDSNV_TT();
             this.Close();
         }
     }

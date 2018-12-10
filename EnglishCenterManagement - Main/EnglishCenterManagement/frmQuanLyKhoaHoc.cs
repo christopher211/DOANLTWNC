@@ -39,19 +39,6 @@ namespace EnglishCenterManagement
             lsKhoaHoc = khBUS.DanhSachKH();
             dgcontrol_khoaHoc.DataSource = lsKhoaHoc;   
         }
-        private void LoadDSKhoaHocTheoMaKH()
-        {
-            List<KhoaHoc_DTO> lsKhoaHoc = new List<KhoaHoc_DTO>();
-            lsKhoaHoc = khBUS.DanhSachKHTheoMaKH(txt_timMaKH.Text);
-            dgcontrol_khoaHoc.DataSource = lsKhoaHoc;
-        }
-        private void LoadDSKhoaHocTheoTen()
-        {
-            List<KhoaHoc_DTO> lsKhoaHoc = new List<KhoaHoc_DTO>();
-            lsKhoaHoc = khBUS.DanhSachKHTheoTen(txt_timTenKH.Text);
-            dgcontrol_khoaHoc.DataSource = lsKhoaHoc;
-        }
-
         private void txt_hocPhi_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
@@ -278,6 +265,8 @@ namespace EnglishCenterManagement
                 isClick = false;
                 btn_themKhoaHoc.Enabled = true;
                 btn_suaKhoaHoc.Enabled = false;
+                btn_xoaKhoaHoc.Enabled = false;
+                btn_capNhatTGKH.Enabled = false;
                 string maTiepTheo = khBUS.maKhoaHocTiepTheo();
                 txt_makh.Text = maTiepTheo;
                 txt_tenkh.Text = string.Empty;
@@ -293,6 +282,8 @@ namespace EnglishCenterManagement
                 isClick = true;
                 btn_themKhoaHoc.Enabled = false;
                 btn_suaKhoaHoc.Enabled = true;
+                btn_xoaKhoaHoc.Enabled = true;
+                btn_capNhatTGKH.Enabled = true;
                 dgcontrol_khoaHoc.Enabled = true;
                 string maTiepTheo = string.Empty;
                 txt_makh.Text = string.Empty;
@@ -313,15 +304,6 @@ namespace EnglishCenterManagement
             dt_ngayBatDau.EditValue = string.Empty;
             dt_ngayKetThuc.EditValue = string.Empty;
             txt_hocPhi.Text = string.Empty;
-        }
-        private void btn_timMakh_Click(object sender, EventArgs e)
-        {
-            LoadDSKhoaHocTheoMaKH();
-        }
-
-        private void btn_timTenKH_Click(object sender, EventArgs e)
-        {
-            LoadDSKhoaHocTheoTen();
         }
 
         private void btn_help_Click(object sender, EventArgs e)

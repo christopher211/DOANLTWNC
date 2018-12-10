@@ -40,7 +40,7 @@ namespace EnglishCenterManagement
         {
             if (dgview_khoiPhucTK.SelectedRowsCount == 0)
             {
-                XtraMessageBox.Show("Chưa chọn đối tượng để khôi phục");
+                XtraMessageBox.Show("Chưa chọn đối tượng để khôi phục", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {

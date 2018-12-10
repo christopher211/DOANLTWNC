@@ -124,6 +124,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "frmThemTaiKhoan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmThemTaiKhoan_FormClosing);
             this.Load += new System.EventHandler(this.frmThemTaiKhoan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgcontrol_chuaCoTK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgview_chuaCoTK)).EndInit();

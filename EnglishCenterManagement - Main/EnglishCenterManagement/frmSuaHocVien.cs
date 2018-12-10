@@ -53,10 +53,19 @@ namespace EnglishCenterManagement
         Lop_BUS lopBUS = new Lop_BUS();
         Lop_DTO lopDTO = new Lop_DTO();
 
-        public frmSuaHocVien()
+        private ucQLHV_DanhSach ucQLHV_DanhSach;
+
+        //public frmSuaHocVien()
+        //{
+        //    InitializeComponent();
+        //}
+
+        public frmSuaHocVien(ucQLHV_DanhSach ucQLHV_DanhSach)
         {
             InitializeComponent();
+            this.ucQLHV_DanhSach = ucQLHV_DanhSach;
         }
+
         private void frmSuaHocVien_Load(object sender, EventArgs e)
         {
             lke_lopHoc.Enabled = false;
@@ -86,19 +95,56 @@ namespace EnglishCenterManagement
             }
             else
             {
-                if (hvDTO != null)
+                if (dt_ngaySinh.DateTime.Year >= DateTime.Now.Year)
                 {
-                    GetDetail();
-
-                    int kq = hvBUS.UpdateHV(hvDTO);
-                    if (kq == 1)
+                    XtraMessageBox.Show("Năm sinh không được lớn hơn hoặc bằng năm hiện tại!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    if (Math.Abs(dt_ngaySinh.DateTime.Year - DateTime.Now.Year) < 6)
                     {
-                        XtraMessageBox.Show(string.Format("Sửa học viên mã {0} thành công!", hvDTO.MSHV), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        this.Close();
+                        XtraMessageBox.Show("Học viên phải trên 6 tuổi!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                     else
                     {
-                        XtraMessageBox.Show("Sửa không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);                        
+                        if (txt_sdt.Text.Length < 10)
+                        {
+                            XtraMessageBox.Show("Số điện thoại phải đủ 10 số!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                        else
+                        {
+                            if (!txt_sdt.Text.StartsWith("0"))
+                            {
+                                XtraMessageBox.Show("Số điện thoại phải bắt đầu bằng số 0!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                            }
+                            else
+                            {
+                                if (Utilities.IsValidEmail(txt_email.Text.Trim()) == false)
+                                {
+                                    XtraMessageBox.Show("Địa chỉ email sai định dạng!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                }
+                                else
+                                {
+                                    if (hvDTO != null)
+                                    {
+                                        GetDetail();
+
+                                        int kq = hvBUS.UpdateHV(hvDTO);
+                                        if (kq == 1)
+                                        {
+                                            XtraMessageBox.Show(string.Format("Sửa học viên mã {0} thành công!", hvDTO.MSHV), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                            ucQLHV_DanhSach.LoadDSHV();
+                                            this.Close();
+                                        }
+                                        else
+                                        {
+                                            XtraMessageBox.Show("Sửa không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -123,6 +169,7 @@ namespace EnglishCenterManagement
         private void btn_thoat_Click(object sender, EventArgs e)
         {
             this.Close();
+            ucQLHV_DanhSach.LoadDSHV();
         }
 
         private void lke_khoaHoc_EditValueChanged(object sender, EventArgs e)

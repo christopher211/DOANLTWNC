@@ -31,55 +31,18 @@ namespace EnglishCenterManagement
         private void ucQLNV_TrungTam_Load(object sender, EventArgs e)
         {
             LoadDSNV_TT();
-            LoadDSCV();
         }
-        private void LoadDSNV_TT()
+        public void LoadDSNV_TT()
         {
             List<NhanVien_DTO> lsNhanVien = new List<NhanVien_DTO>();
             lsNhanVien = nvBUS.danhsachNV();
-            dgcontrol_nhanVien.DataSource = lsNhanVien;
-        }
-        private void LoadDSCV()
-        {
-            lsChucVu = new List<ChucVu_DTO>();
-            lsChucVu = cvBUS.DanhSachCV();           
-
-            lke_timNhanVienChucVu.Properties.DataSource = lsChucVu;
-            lke_timNhanVienChucVu.Properties.DisplayMember = "MaCV";
-            lke_timNhanVienChucVu.Properties.ValueMember = "MaCV";
-
-            lke_timNhanVienChucVu.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MaCV", "Mã Chức Vụ", 10));
-            lke_timNhanVienChucVu.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenCV", "Tên Chức Vụ", 20));
-        }
-        private void LoadDSNVTheoMaNV()
-        {
-            lsNhanVien = new List<NhanVien_DTO>();
-            lsNhanVien = nvBUS.danhsachNVTheoMaNV(txt_timNhanVienMaNV.Text);
-            dgcontrol_nhanVien.DataSource = lsNhanVien;
-        }
-        private void LoadDSNVTheoHoTen()
-        {
-            lsNhanVien = new List<NhanVien_DTO>();
-            lsNhanVien = nvBUS.danhsachNVTheoHoTen(txt_timNhanVienHoTen.Text);
-            dgcontrol_nhanVien.DataSource = lsNhanVien;
-        }
-        private void LoadDSNVTheoSDT()
-        {
-            lsNhanVien = new List<NhanVien_DTO>();
-            lsNhanVien = nvBUS.danhsachNVTheoSDT(txt_timNhanVienSDT.Text);
-            dgcontrol_nhanVien.DataSource = lsNhanVien;
-        }
-        private void LoadDSNVTheoChucVu()
-        {
-            lsNhanVien = new List<NhanVien_DTO>();
-            lsNhanVien = nvBUS.danhsachNVTheoChucVu(lke_timNhanVienChucVu.Text);
             dgcontrol_nhanVien.DataSource = lsNhanVien;
         }
         private void btn_xoaNhanVien_Click(object sender, EventArgs e)
         {
             if (dgview_nhanVien.SelectedRowsCount == 0)
             {
-                XtraMessageBox.Show("Chưa chọn đối tượng để xóa");
+                XtraMessageBox.Show("Chưa chọn đối tượng để xóa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -104,11 +67,11 @@ namespace EnglishCenterManagement
         {
             if (dgview_nhanVien.SelectedRowsCount == 0)
             {
-                XtraMessageBox.Show("Chưa chọn đối tượng để sửa", "Thông báo");
+                XtraMessageBox.Show("Chưa chọn đối tượng để sửa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                frmSuaNhanVien f = new frmSuaNhanVien();
+                frmSuaNhanVien f = new frmSuaNhanVien(this);
                 int[] selectedRows = dgview_nhanVien.GetSelectedRows();
                 foreach (int rowHandle in selectedRows)
                 {
@@ -132,7 +95,7 @@ namespace EnglishCenterManagement
         }
         private void btn_themGiaoVien_Click(object sender, EventArgs e)
         {
-            frmThemNhanVien f = new frmThemNhanVien();
+            frmThemNhanVien f = new frmThemNhanVien(this);
             f.ShowDialog();
         }
 
@@ -141,24 +104,5 @@ namespace EnglishCenterManagement
             LoadDSNV_TT();
         }
 
-        private void btn_timNhanVienMaNV_Click(object sender, EventArgs e)
-        {           
-                LoadDSNVTheoMaNV();
-        }
-
-        private void btn_timNhanVienHoTen_Click(object sender, EventArgs e)
-        {
-            LoadDSNVTheoHoTen();
-        }
-
-        private void btn_timNhanVienChucVu_Click(object sender, EventArgs e)
-        {
-            LoadDSNVTheoChucVu();
-        }
-
-        private void btn_timNhanVienSDT_Click(object sender, EventArgs e)
-        {
-            LoadDSNVTheoSDT();
-        }        
     }
 }

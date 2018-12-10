@@ -80,7 +80,6 @@ namespace EnglishCenterManagement
         {
             LoadDSLop();
             gp_thongTinChiTiet.Enabled = false;
-            gp_timKiem.Enabled = false;
             dgcontrol_diemHocVien.Enabled = false;
         }
         private void LoadDSLop()
@@ -98,32 +97,11 @@ namespace EnglishCenterManagement
             lsDiem = diemBUS.danhSachDiemHV(lke_maLop.Text.Trim());
             dgcontrol_diemHocVien.DataSource = lsDiem;
         }       
-        private void LoadDSDiemTheoHoTen()
-        {
-            lsDiem = new List<Diem_DTO>();
-            lsDiem = diemBUS.danhSachDiemHVTheoHoTen(lke_maLop.Text.Trim(), txt_timTenHV.Text.Trim());
-            dgcontrol_diemHocVien.DataSource = lsDiem;
-        }
-        private void LoadDSDiemTheoMaHV()
-        {
-            lsDiem = new List<Diem_DTO>();
-            lsDiem = diemBUS.danhSachDiemHVTheoMaHV(lke_maLop.Text.Trim(), txt_timMaHV.Text.Trim());
-            dgcontrol_diemHocVien.DataSource = lsDiem;
-        }
         private void btn_timLop_Click(object sender, EventArgs e)
         {
             LoadDSDiem();
             gp_thongTinChiTiet.Enabled = true;
-            gp_timKiem.Enabled = true;
             dgcontrol_diemHocVien.Enabled = true;
-        }
-        private void btn_timTenHV_Click(object sender, EventArgs e)
-        {
-            LoadDSDiemTheoHoTen();
-        }
-        private void btn_timMaHV_Click(object sender, EventArgs e)
-        {
-            LoadDSDiemTheoMaHV();
         }
         private void btn_luuDiem_Click(object sender, EventArgs e)
         {

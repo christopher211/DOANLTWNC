@@ -80,11 +80,6 @@ namespace EnglishCenterManagement
             lke_phongHoc.Properties.ValueMember = "MaPhong";
 
         }
-        private void LoadDSLopTheoMaLop()
-        {
-            lsLop = new List<Lop_DTO>();
-            lsLop = lopBUS.DanhSachLopTheoMaLop(txt_maLop.Text);
-        }
         private void BindingChiTiet()
         {
             if(lopDTO != null)
@@ -154,6 +149,7 @@ namespace EnglishCenterManagement
                 time_gioKetThuc.EditValue = string.Empty;
                 btn_themLopHoc.Enabled = true;
                 btn_suaLopHoc.Enabled = false;
+                btn_xoaLopHoc.Enabled = false;
                 dgcontrol_lopHoc.Enabled = false;
                 btn_lamMoiLopHoc.Text = "Hủy";
                 btn_lamMoiLopHoc.ImageOptions.Image = EnglishCenterManagement.Properties.Resources.close;
@@ -171,6 +167,7 @@ namespace EnglishCenterManagement
                 time_gioKetThuc.EditValue = string.Empty;
                 btn_themLopHoc.Enabled = false;
                 btn_suaLopHoc.Enabled = true;
+                btn_xoaLopHoc.Enabled = true;
                 dgcontrol_lopHoc.Enabled = true;
                 btn_lamMoiLopHoc.Text = "Làm mới";
                 btn_lamMoiLopHoc.ImageOptions.Image = EnglishCenterManagement.Properties.Resources.refresh;

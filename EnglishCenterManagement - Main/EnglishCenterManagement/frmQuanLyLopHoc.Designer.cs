@@ -63,16 +63,6 @@
             this.txt_tenLop = new DevExpress.XtraEditors.TextEdit();
             this.cbo_lichHoc = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
-            this.btn_timMaKhoaHoc = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
-            this.lke_timMaKhoaHoc = new DevExpress.XtraEditors.LookUpEdit();
-            this.btn_timTenLop = new DevExpress.XtraEditors.SimpleButton();
-            this.btn_timMaLop = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_timTenLop = new DevExpress.XtraEditors.TextEdit();
-            this.txt_timMaLop = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.dgcontrol_lopHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgview_lopHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -87,11 +77,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txt_maLop.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_tenLop.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbo_lichHoc.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
-            this.groupControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lke_timMaKhoaHoc.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timTenLop.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timMaLop.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // dgcontrol_lopHoc
@@ -119,6 +104,7 @@
             this.dgview_lopHoc.GridControl = this.dgcontrol_lopHoc;
             this.dgview_lopHoc.Name = "dgview_lopHoc";
             this.dgview_lopHoc.OptionsBehavior.ReadOnly = true;
+            this.dgview_lopHoc.OptionsFind.AlwaysVisible = true;
             this.dgview_lopHoc.OptionsSelection.EnableAppearanceFocusedCell = false;
             // 
             // cl_malop
@@ -216,16 +202,16 @@
             this.groupControl1.Controls.Add(this.btn_xoaLopHoc);
             this.groupControl1.Controls.Add(this.btn_themLopHoc);
             this.groupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl1.Location = new System.Drawing.Point(413, 170);
+            this.groupControl1.Location = new System.Drawing.Point(93, 94);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(734, 71);
+            this.groupControl1.Size = new System.Drawing.Size(255, 147);
             this.groupControl1.TabIndex = 27;
             this.groupControl1.Text = "Chức năng";
             // 
             // btn_lamMoiLopHoc
             // 
             this.btn_lamMoiLopHoc.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_lamMoiLopHoc.ImageOptions.Image")));
-            this.btn_lamMoiLopHoc.Location = new System.Drawing.Point(533, 26);
+            this.btn_lamMoiLopHoc.Location = new System.Drawing.Point(128, 83);
             this.btn_lamMoiLopHoc.Name = "btn_lamMoiLopHoc";
             this.btn_lamMoiLopHoc.Size = new System.Drawing.Size(93, 38);
             this.btn_lamMoiLopHoc.TabIndex = 3;
@@ -235,7 +221,7 @@
             // btn_suaLopHoc
             // 
             this.btn_suaLopHoc.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_suaLopHoc.ImageOptions.Image")));
-            this.btn_suaLopHoc.Location = new System.Drawing.Point(267, 26);
+            this.btn_suaLopHoc.Location = new System.Drawing.Point(29, 83);
             this.btn_suaLopHoc.Name = "btn_suaLopHoc";
             this.btn_suaLopHoc.Size = new System.Drawing.Size(93, 38);
             this.btn_suaLopHoc.TabIndex = 2;
@@ -245,7 +231,7 @@
             // btn_xoaLopHoc
             // 
             this.btn_xoaLopHoc.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_xoaLopHoc.ImageOptions.Image")));
-            this.btn_xoaLopHoc.Location = new System.Drawing.Point(401, 26);
+            this.btn_xoaLopHoc.Location = new System.Drawing.Point(128, 39);
             this.btn_xoaLopHoc.Name = "btn_xoaLopHoc";
             this.btn_xoaLopHoc.Size = new System.Drawing.Size(93, 38);
             this.btn_xoaLopHoc.TabIndex = 1;
@@ -255,7 +241,7 @@
             // btn_themLopHoc
             // 
             this.btn_themLopHoc.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_themLopHoc.ImageOptions.Image")));
-            this.btn_themLopHoc.Location = new System.Drawing.Point(130, 26);
+            this.btn_themLopHoc.Location = new System.Drawing.Point(29, 39);
             this.btn_themLopHoc.Name = "btn_themLopHoc";
             this.btn_themLopHoc.Size = new System.Drawing.Size(93, 38);
             this.btn_themLopHoc.TabIndex = 0;
@@ -282,7 +268,7 @@
             this.groupControl2.Controls.Add(this.txt_tenLop);
             this.groupControl2.Controls.Add(this.cbo_lichHoc);
             this.groupControl2.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl2.Location = new System.Drawing.Point(413, 17);
+            this.groupControl2.Location = new System.Drawing.Point(413, 94);
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(734, 147);
             this.groupControl2.TabIndex = 28;
@@ -470,112 +456,17 @@
             this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Green;
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(36, 25);
+            this.labelControl1.Location = new System.Drawing.Point(413, 12);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(321, 42);
             this.labelControl1.TabIndex = 29;
             this.labelControl1.Text = "DANH SÁCH LỚP HỌC";
-            // 
-            // groupControl4
-            // 
-            this.groupControl4.Controls.Add(this.btn_timMaKhoaHoc);
-            this.groupControl4.Controls.Add(this.labelControl13);
-            this.groupControl4.Controls.Add(this.lke_timMaKhoaHoc);
-            this.groupControl4.Controls.Add(this.btn_timTenLop);
-            this.groupControl4.Controls.Add(this.btn_timMaLop);
-            this.groupControl4.Controls.Add(this.labelControl11);
-            this.groupControl4.Controls.Add(this.labelControl12);
-            this.groupControl4.Controls.Add(this.txt_timTenLop);
-            this.groupControl4.Controls.Add(this.txt_timMaLop);
-            this.groupControl4.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl4.Location = new System.Drawing.Point(12, 106);
-            this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(395, 135);
-            this.groupControl4.TabIndex = 33;
-            this.groupControl4.Text = "Tìm kiếm";
-            // 
-            // btn_timMaKhoaHoc
-            // 
-            this.btn_timMaKhoaHoc.Location = new System.Drawing.Point(290, 93);
-            this.btn_timMaKhoaHoc.Name = "btn_timMaKhoaHoc";
-            this.btn_timMaKhoaHoc.Size = new System.Drawing.Size(55, 20);
-            this.btn_timMaKhoaHoc.TabIndex = 33;
-            this.btn_timMaKhoaHoc.Text = "Tìm";
-            // 
-            // labelControl13
-            // 
-            this.labelControl13.Location = new System.Drawing.Point(25, 96);
-            this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(60, 13);
-            this.labelControl13.TabIndex = 32;
-            this.labelControl13.Text = "Mã khóa học";
-            // 
-            // lke_timMaKhoaHoc
-            // 
-            this.lke_timMaKhoaHoc.Location = new System.Drawing.Point(109, 93);
-            this.lke_timMaKhoaHoc.Name = "lke_timMaKhoaHoc";
-            this.lke_timMaKhoaHoc.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lke_timMaKhoaHoc.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MaKH", "Mã khóa học"),
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenKH", "Tên khóa học")});
-            this.lke_timMaKhoaHoc.Properties.NullText = "";
-            this.lke_timMaKhoaHoc.Size = new System.Drawing.Size(160, 20);
-            this.lke_timMaKhoaHoc.TabIndex = 31;
-            // 
-            // btn_timTenLop
-            // 
-            this.btn_timTenLop.Location = new System.Drawing.Point(290, 67);
-            this.btn_timTenLop.Name = "btn_timTenLop";
-            this.btn_timTenLop.Size = new System.Drawing.Size(55, 20);
-            this.btn_timTenLop.TabIndex = 30;
-            this.btn_timTenLop.Text = "Tìm";
-            // 
-            // btn_timMaLop
-            // 
-            this.btn_timMaLop.Location = new System.Drawing.Point(290, 41);
-            this.btn_timMaLop.Name = "btn_timMaLop";
-            this.btn_timMaLop.Size = new System.Drawing.Size(55, 20);
-            this.btn_timMaLop.TabIndex = 29;
-            this.btn_timMaLop.Text = "Tìm";
-            // 
-            // labelControl11
-            // 
-            this.labelControl11.Location = new System.Drawing.Point(25, 44);
-            this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(51, 13);
-            this.labelControl11.TabIndex = 26;
-            this.labelControl11.Text = "Mã lớp học";
-            // 
-            // labelControl12
-            // 
-            this.labelControl12.Location = new System.Drawing.Point(25, 70);
-            this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(55, 13);
-            this.labelControl12.TabIndex = 27;
-            this.labelControl12.Text = "Tên lớp học";
-            // 
-            // txt_timTenLop
-            // 
-            this.txt_timTenLop.Location = new System.Drawing.Point(109, 67);
-            this.txt_timTenLop.Name = "txt_timTenLop";
-            this.txt_timTenLop.Size = new System.Drawing.Size(160, 20);
-            this.txt_timTenLop.TabIndex = 26;
-            // 
-            // txt_timMaLop
-            // 
-            this.txt_timMaLop.EditValue = "LH";
-            this.txt_timMaLop.Location = new System.Drawing.Point(109, 41);
-            this.txt_timMaLop.Name = "txt_timMaLop";
-            this.txt_timMaLop.Size = new System.Drawing.Size(160, 20);
-            this.txt_timMaLop.TabIndex = 0;
             // 
             // frmQuanLyLopHoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1159, 552);
-            this.Controls.Add(this.groupControl4);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.groupControl2);
@@ -599,12 +490,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txt_maLop.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_tenLop.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbo_lichHoc.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
-            this.groupControl4.ResumeLayout(false);
-            this.groupControl4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.lke_timMaKhoaHoc.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timTenLop.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timMaLop.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -646,15 +531,5 @@
         private DevExpress.XtraEditors.TimeSpanEdit time_gioKetThuc;
         private DevExpress.XtraEditors.TimeSpanEdit time_gioBatDau;
         private DevExpress.XtraEditors.LookUpEdit lke_phongHoc;
-        private DevExpress.XtraEditors.GroupControl groupControl4;
-        private DevExpress.XtraEditors.LabelControl labelControl13;
-        private DevExpress.XtraEditors.LookUpEdit lke_timMaKhoaHoc;
-        private DevExpress.XtraEditors.SimpleButton btn_timTenLop;
-        private DevExpress.XtraEditors.SimpleButton btn_timMaLop;
-        private DevExpress.XtraEditors.LabelControl labelControl11;
-        private DevExpress.XtraEditors.LabelControl labelControl12;
-        private DevExpress.XtraEditors.TextEdit txt_timTenLop;
-        private DevExpress.XtraEditors.TextEdit txt_timMaLop;
-        private DevExpress.XtraEditors.SimpleButton btn_timMaKhoaHoc;
     }
 }

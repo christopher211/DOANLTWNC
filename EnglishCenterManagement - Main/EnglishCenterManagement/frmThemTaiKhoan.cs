@@ -19,9 +19,17 @@ namespace EnglishCenterManagement
 
         NhanVien_BUS nvBUS = new NhanVien_BUS();
         NhanVien_DTO nvDTO = new NhanVien_DTO();
-        public frmThemTaiKhoan()
+        private ucQLTK ucQLTK;
+
+        //public frmThemTaiKhoan()
+        //{
+        //    InitializeComponent();
+        //}
+
+        public frmThemTaiKhoan(ucQLTK ucQLTK)
         {
             InitializeComponent();
+            this.ucQLTK = ucQLTK;
         }
 
         private void frmThemTaiKhoan_Load(object sender, EventArgs e)
@@ -29,7 +37,7 @@ namespace EnglishCenterManagement
             LoadDSNVChuaCoTaiKhoan();
         }
 
-        private void LoadDSNVChuaCoTaiKhoan()
+        public void LoadDSNVChuaCoTaiKhoan()
         {
             lsNhanVien = new List<NhanVien_DTO>();
             lsNhanVien = nvBUS.danhsachNVChuaCoTaiKhoan();
@@ -39,7 +47,7 @@ namespace EnglishCenterManagement
 
         private void dgcontrol_chuaCoTK_DoubleClick(object sender, EventArgs e)
         {
-            subForm_TaoTK sf = new subForm_TaoTK();
+            subForm_TaoTK sf = new subForm_TaoTK(this);
             int[] selectedRows = dgview_chuaCoTK.GetSelectedRows();
             foreach (int rowHandle in selectedRows)
             {
@@ -49,6 +57,11 @@ namespace EnglishCenterManagement
                 }               
             }
             sf.ShowDialog();
+        }
+
+        private void frmThemTaiKhoan_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            ucQLTK.LoadTK();
         }
     }
 }

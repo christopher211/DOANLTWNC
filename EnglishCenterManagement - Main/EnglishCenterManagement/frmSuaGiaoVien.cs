@@ -46,11 +46,19 @@ namespace EnglishCenterManagement
 
         NhanVien_BUS gvBUS = new NhanVien_BUS();
         NhanVien_DTO gvDTO = new NhanVien_DTO();
+        private ucQLNV_GiaoVien ucQLNV_GiaoVien;
 
-        public frmSuaGiaoVien()
+        //public frmSuaGiaoVien()
+        //{
+        //    InitializeComponent();
+        //}
+
+        public frmSuaGiaoVien(ucQLNV_GiaoVien ucQLNV_GiaoVien)
         {
             InitializeComponent();
+            this.ucQLNV_GiaoVien = ucQLNV_GiaoVien;
         }
+
         private void frmSuaGiaoVien_Load(object sender, EventArgs e)
         {
 
@@ -102,6 +110,7 @@ namespace EnglishCenterManagement
                     if (kq == 1)
                     {
                         XtraMessageBox.Show(string.Format("Sửa giáo viên mã {0} thành công!", gvDTO.MaNV), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        ucQLNV_GiaoVien.LoadDSNV_GV();
                         this.Close();
                     }
                     else
@@ -119,6 +128,7 @@ namespace EnglishCenterManagement
 
         private void btn_thoat_Click(object sender, EventArgs e)
         {
+            ucQLNV_GiaoVien.LoadDSNV_GV();
             this.Close();
         }
       

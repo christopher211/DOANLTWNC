@@ -122,5 +122,16 @@ namespace EnglishCenterManagement
                 }
             }
         }
+
+        private void lb_doiMatKhau_Click(object sender, EventArgs e)
+        {
+            subFormDoiMatKhau_2 sf = new subFormDoiMatKhau_2();
+            sf.ShowDialog();
+        }
+
+        private void lb_quenMatKhau_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

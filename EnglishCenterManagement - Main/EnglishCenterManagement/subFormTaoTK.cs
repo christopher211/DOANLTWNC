@@ -18,12 +18,20 @@ namespace EnglishCenterManagement
         TaiKhoan_BUS tkBUS = new TaiKhoan_BUS();
         TaiKhoan_DTO tkDTO = new TaiKhoan_DTO();
 
-        NhanVien_BUS nvBUS = new NhanVien_BUS();      
+        NhanVien_BUS nvBUS = new NhanVien_BUS();
+        private frmThemTaiKhoan frmThemTaiKhoan;
 
-        public subForm_TaoTK()
+        //public subForm_TaoTK()
+        //{
+        //    InitializeComponent();
+        //    txt_manv.Hide();
+        //}
+
+        public subForm_TaoTK(frmThemTaiKhoan frmThemTaiKhoan)
         {
             InitializeComponent();
             txt_manv.Hide();
+            this.frmThemTaiKhoan = frmThemTaiKhoan;
         }
 
         private void btn_luuTaiKhoan_Click(object sender, EventArgs e)
@@ -58,6 +66,7 @@ namespace EnglishCenterManagement
                                 string manv = txt_manv.Text;
                                 tkBUS.UpdateNVChuaCoTK(manv);
                                 nvBUS.danhsachNVChuaCoTaiKhoan();
+                                frmThemTaiKhoan.LoadDSNVChuaCoTaiKhoan();
                                 this.Dispose();
                             }
                             else

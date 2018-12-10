@@ -47,37 +47,18 @@
             this.btn_xoaNhanVien = new DevExpress.XtraEditors.SimpleButton();
             this.btn_themGiaoVien = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.txt_timNhanVienSDT = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.lke_timNhanVienChucVu = new DevExpress.XtraEditors.LookUpEdit();
-            this.btn_timNhanVienSDT = new DevExpress.XtraEditors.SimpleButton();
-            this.btn_timNhanVienChucVu = new DevExpress.XtraEditors.SimpleButton();
-            this.btn_timNhanVienHoTen = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_timNhanVienHoTen = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_timNhanVienMaNV = new DevExpress.XtraEditors.TextEdit();
-            this.btn_timNhanVienMaNV = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgcontrol_nhanVien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgview_nhanVien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
-            this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timNhanVienSDT.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lke_timNhanVienChucVu.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timNhanVienHoTen.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timNhanVienMaNV.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // dgcontrol_nhanVien
             // 
-            this.dgcontrol_nhanVien.Location = new System.Drawing.Point(3, 230);
+            this.dgcontrol_nhanVien.Location = new System.Drawing.Point(3, 162);
             this.dgcontrol_nhanVien.MainView = this.dgview_nhanVien;
             this.dgcontrol_nhanVien.Name = "dgcontrol_nhanVien";
-            this.dgcontrol_nhanVien.Size = new System.Drawing.Size(989, 301);
+            this.dgcontrol_nhanVien.Size = new System.Drawing.Size(989, 369);
             this.dgcontrol_nhanVien.TabIndex = 7;
             this.dgcontrol_nhanVien.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.dgview_nhanVien});
@@ -97,6 +78,7 @@
             this.cl_chucVu});
             this.dgview_nhanVien.GridControl = this.dgcontrol_nhanVien;
             this.dgview_nhanVien.Name = "dgview_nhanVien";
+            this.dgview_nhanVien.OptionsFind.AlwaysVisible = true;
             this.dgview_nhanVien.OptionsFind.FindFilterColumns = "*ID;MaNV;HoNV;TenNV;GioiTinh;NgaySinh;NgayLamViec;SDT;Email;DiaChi;ChucVu;";
             this.dgview_nhanVien.OptionsSelection.EnableAppearanceFocusedCell = false;
             // 
@@ -217,16 +199,16 @@
             this.groupControl1.Controls.Add(this.btn_xoaNhanVien);
             this.groupControl1.Controls.Add(this.btn_themGiaoVien);
             this.groupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl1.Location = new System.Drawing.Point(57, 86);
+            this.groupControl1.Location = new System.Drawing.Point(293, 76);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(204, 118);
+            this.groupControl1.Size = new System.Drawing.Size(423, 73);
             this.groupControl1.TabIndex = 14;
             this.groupControl1.Text = "Chức năng";
             // 
             // btn_lamMoiNhanVien
             // 
             this.btn_lamMoiNhanVien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_lamMoiNhanVien.ImageOptions.Image")));
-            this.btn_lamMoiNhanVien.Location = new System.Drawing.Point(104, 72);
+            this.btn_lamMoiNhanVien.Location = new System.Drawing.Point(315, 24);
             this.btn_lamMoiNhanVien.Name = "btn_lamMoiNhanVien";
             this.btn_lamMoiNhanVien.Size = new System.Drawing.Size(93, 38);
             this.btn_lamMoiNhanVien.TabIndex = 3;
@@ -236,7 +218,7 @@
             // btn_sua
             // 
             this.btn_sua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_sua.ImageOptions.Image")));
-            this.btn_sua.Location = new System.Drawing.Point(5, 72);
+            this.btn_sua.Location = new System.Drawing.Point(117, 24);
             this.btn_sua.Name = "btn_sua";
             this.btn_sua.Size = new System.Drawing.Size(93, 38);
             this.btn_sua.TabIndex = 2;
@@ -246,7 +228,7 @@
             // btn_xoaNhanVien
             // 
             this.btn_xoaNhanVien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_xoaNhanVien.ImageOptions.Image")));
-            this.btn_xoaNhanVien.Location = new System.Drawing.Point(104, 25);
+            this.btn_xoaNhanVien.Location = new System.Drawing.Point(216, 24);
             this.btn_xoaNhanVien.Name = "btn_xoaNhanVien";
             this.btn_xoaNhanVien.Size = new System.Drawing.Size(93, 38);
             this.btn_xoaNhanVien.TabIndex = 1;
@@ -256,7 +238,7 @@
             // btn_themGiaoVien
             // 
             this.btn_themGiaoVien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_themGiaoVien.ImageOptions.Image")));
-            this.btn_themGiaoVien.Location = new System.Drawing.Point(5, 25);
+            this.btn_themGiaoVien.Location = new System.Drawing.Point(18, 24);
             this.btn_themGiaoVien.Name = "btn_themGiaoVien";
             this.btn_themGiaoVien.Size = new System.Drawing.Size(93, 38);
             this.btn_themGiaoVien.TabIndex = 0;
@@ -275,141 +257,10 @@
             this.labelControl2.TabIndex = 92;
             this.labelControl2.Text = "DANH SÁCH NHÂN VIÊN";
             // 
-            // groupControl2
-            // 
-            this.groupControl2.Controls.Add(this.txt_timNhanVienSDT);
-            this.groupControl2.Controls.Add(this.labelControl5);
-            this.groupControl2.Controls.Add(this.labelControl4);
-            this.groupControl2.Controls.Add(this.lke_timNhanVienChucVu);
-            this.groupControl2.Controls.Add(this.btn_timNhanVienSDT);
-            this.groupControl2.Controls.Add(this.btn_timNhanVienChucVu);
-            this.groupControl2.Controls.Add(this.btn_timNhanVienHoTen);
-            this.groupControl2.Controls.Add(this.labelControl3);
-            this.groupControl2.Controls.Add(this.txt_timNhanVienHoTen);
-            this.groupControl2.Controls.Add(this.labelControl1);
-            this.groupControl2.Controls.Add(this.txt_timNhanVienMaNV);
-            this.groupControl2.Controls.Add(this.btn_timNhanVienMaNV);
-            this.groupControl2.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl2.Location = new System.Drawing.Point(305, 86);
-            this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(639, 118);
-            this.groupControl2.TabIndex = 93;
-            this.groupControl2.Text = "Tìm kiếm";
-            // 
-            // txt_timNhanVienSDT
-            // 
-            this.txt_timNhanVienSDT.Location = new System.Drawing.Point(398, 74);
-            this.txt_timNhanVienSDT.Name = "txt_timNhanVienSDT";
-            this.txt_timNhanVienSDT.Size = new System.Drawing.Size(148, 20);
-            this.txt_timNhanVienSDT.TabIndex = 44;
-            // 
-            // labelControl5
-            // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(367, 76);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(25, 16);
-            this.labelControl5.TabIndex = 43;
-            this.labelControl5.Text = "SĐT";
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(339, 39);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(53, 17);
-            this.labelControl4.TabIndex = 42;
-            this.labelControl4.Text = "Chức vụ";
-            // 
-            // lke_timNhanVienChucVu
-            // 
-            this.lke_timNhanVienChucVu.Location = new System.Drawing.Point(398, 38);
-            this.lke_timNhanVienChucVu.Name = "lke_timNhanVienChucVu";
-            this.lke_timNhanVienChucVu.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lke_timNhanVienChucVu.Properties.NullText = "";
-            this.lke_timNhanVienChucVu.Size = new System.Drawing.Size(148, 20);
-            this.lke_timNhanVienChucVu.TabIndex = 37;
-            // 
-            // btn_timNhanVienSDT
-            // 
-            this.btn_timNhanVienSDT.Location = new System.Drawing.Point(552, 74);
-            this.btn_timNhanVienSDT.Name = "btn_timNhanVienSDT";
-            this.btn_timNhanVienSDT.Size = new System.Drawing.Size(66, 20);
-            this.btn_timNhanVienSDT.TabIndex = 41;
-            this.btn_timNhanVienSDT.Text = "Tìm";
-            this.btn_timNhanVienSDT.Click += new System.EventHandler(this.btn_timNhanVienSDT_Click);
-            // 
-            // btn_timNhanVienChucVu
-            // 
-            this.btn_timNhanVienChucVu.Location = new System.Drawing.Point(552, 38);
-            this.btn_timNhanVienChucVu.Name = "btn_timNhanVienChucVu";
-            this.btn_timNhanVienChucVu.Size = new System.Drawing.Size(66, 20);
-            this.btn_timNhanVienChucVu.TabIndex = 40;
-            this.btn_timNhanVienChucVu.Text = "Tìm";
-            this.btn_timNhanVienChucVu.Click += new System.EventHandler(this.btn_timNhanVienChucVu_Click);
-            // 
-            // btn_timNhanVienHoTen
-            // 
-            this.btn_timNhanVienHoTen.Location = new System.Drawing.Point(251, 74);
-            this.btn_timNhanVienHoTen.Name = "btn_timNhanVienHoTen";
-            this.btn_timNhanVienHoTen.Size = new System.Drawing.Size(66, 20);
-            this.btn_timNhanVienHoTen.TabIndex = 37;
-            this.btn_timNhanVienHoTen.Text = "Tìm";
-            this.btn_timNhanVienHoTen.Click += new System.EventHandler(this.btn_timNhanVienHoTen_Click);
-            // 
-            // labelControl3
-            // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(31, 76);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(41, 17);
-            this.labelControl3.TabIndex = 36;
-            this.labelControl3.Text = "Họ tên";
-            // 
-            // txt_timNhanVienHoTen
-            // 
-            this.txt_timNhanVienHoTen.Location = new System.Drawing.Point(85, 74);
-            this.txt_timNhanVienHoTen.Name = "txt_timNhanVienHoTen";
-            this.txt_timNhanVienHoTen.Size = new System.Drawing.Size(158, 20);
-            this.txt_timNhanVienHoTen.TabIndex = 35;
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(35, 39);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(37, 16);
-            this.labelControl1.TabIndex = 34;
-            this.labelControl1.Text = "Mã NV";
-            // 
-            // txt_timNhanVienMaNV
-            // 
-            this.txt_timNhanVienMaNV.EditValue = "NV";
-            this.txt_timNhanVienMaNV.Location = new System.Drawing.Point(85, 36);
-            this.txt_timNhanVienMaNV.Name = "txt_timNhanVienMaNV";
-            this.txt_timNhanVienMaNV.Properties.MaxLength = 4;
-            this.txt_timNhanVienMaNV.Size = new System.Drawing.Size(158, 20);
-            this.txt_timNhanVienMaNV.TabIndex = 32;
-            // 
-            // btn_timNhanVienMaNV
-            // 
-            this.btn_timNhanVienMaNV.Location = new System.Drawing.Point(251, 36);
-            this.btn_timNhanVienMaNV.Name = "btn_timNhanVienMaNV";
-            this.btn_timNhanVienMaNV.Size = new System.Drawing.Size(66, 20);
-            this.btn_timNhanVienMaNV.TabIndex = 33;
-            this.btn_timNhanVienMaNV.Text = "Tìm";
-            this.btn_timNhanVienMaNV.Click += new System.EventHandler(this.btn_timNhanVienMaNV_Click);
-            // 
             // ucQLNV_TrungTam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.dgcontrol_nhanVien);
@@ -420,13 +271,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgview_nhanVien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
-            this.groupControl2.ResumeLayout(false);
-            this.groupControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timNhanVienSDT.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lke_timNhanVienChucVu.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timNhanVienHoTen.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timNhanVienMaNV.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -451,18 +295,5 @@
         private DevExpress.XtraEditors.SimpleButton btn_xoaNhanVien;
         private DevExpress.XtraEditors.SimpleButton btn_themGiaoVien;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraEditors.LabelControl labelControl5;
-        private DevExpress.XtraEditors.LabelControl labelControl4;
-        private DevExpress.XtraEditors.LookUpEdit lke_timNhanVienChucVu;
-        private DevExpress.XtraEditors.SimpleButton btn_timNhanVienSDT;
-        private DevExpress.XtraEditors.SimpleButton btn_timNhanVienChucVu;
-        private DevExpress.XtraEditors.SimpleButton btn_timNhanVienHoTen;
-        private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.TextEdit txt_timNhanVienHoTen;
-        private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit txt_timNhanVienMaNV;
-        private DevExpress.XtraEditors.SimpleButton btn_timNhanVienMaNV;
-        private DevExpress.XtraEditors.TextEdit txt_timNhanVienSDT;
     }
 }

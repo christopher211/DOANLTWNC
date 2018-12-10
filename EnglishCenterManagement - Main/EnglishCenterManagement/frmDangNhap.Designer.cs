@@ -37,6 +37,8 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.chk_showHide = new DevExpress.XtraEditors.CheckEdit();
+            this.lb_quenMatKhau = new DevExpress.XtraEditors.HyperlinkLabelControl();
+            this.lb_doiMatKhau = new DevExpress.XtraEditors.HyperlinkLabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_tenDangNhap.Properties)).BeginInit();
@@ -49,7 +51,7 @@
             this.btn_dangNhap.Location = new System.Drawing.Point(125, 277);
             this.btn_dangNhap.Name = "btn_dangNhap";
             this.btn_dangNhap.Size = new System.Drawing.Size(75, 23);
-            this.btn_dangNhap.TabIndex = 0;
+            this.btn_dangNhap.TabIndex = 3;
             this.btn_dangNhap.Text = "OK";
             this.btn_dangNhap.Click += new System.EventHandler(this.btn_dangNhap_Click);
             // 
@@ -58,7 +60,7 @@
             this.btn_exit.Location = new System.Drawing.Point(206, 277);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(75, 23);
-            this.btn_exit.TabIndex = 1;
+            this.btn_exit.TabIndex = 5;
             this.btn_exit.Text = "Thoát";
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
@@ -84,14 +86,14 @@
             this.txt_tenDangNhap.Location = new System.Drawing.Point(12, 50);
             this.txt_tenDangNhap.Name = "txt_tenDangNhap";
             this.txt_tenDangNhap.Size = new System.Drawing.Size(269, 20);
-            this.txt_tenDangNhap.TabIndex = 3;
+            this.txt_tenDangNhap.TabIndex = 0;
             // 
             // txt_matKhau
             // 
             this.txt_matKhau.Location = new System.Drawing.Point(12, 95);
             this.txt_matKhau.Name = "txt_matKhau";
             this.txt_matKhau.Size = new System.Drawing.Size(269, 20);
-            this.txt_matKhau.TabIndex = 4;
+            this.txt_matKhau.TabIndex = 1;
             // 
             // labelControl1
             // 
@@ -115,8 +117,26 @@
             this.chk_showHide.Name = "chk_showHide";
             this.chk_showHide.Properties.Caption = "Hiện/Ẩn";
             this.chk_showHide.Size = new System.Drawing.Size(60, 19);
-            this.chk_showHide.TabIndex = 7;
+            this.chk_showHide.TabIndex = 2;
             this.chk_showHide.CheckedChanged += new System.EventHandler(this.chk_showHide_CheckedChanged);
+            // 
+            // lb_quenMatKhau
+            // 
+            this.lb_quenMatKhau.Location = new System.Drawing.Point(12, 127);
+            this.lb_quenMatKhau.Name = "lb_quenMatKhau";
+            this.lb_quenMatKhau.Size = new System.Drawing.Size(78, 13);
+            this.lb_quenMatKhau.TabIndex = 7;
+            this.lb_quenMatKhau.Text = "Quên mật khẩu?";
+            this.lb_quenMatKhau.Click += new System.EventHandler(this.lb_quenMatKhau_Click);
+            // 
+            // lb_doiMatKhau
+            // 
+            this.lb_doiMatKhau.Location = new System.Drawing.Point(12, 146);
+            this.lb_doiMatKhau.Name = "lb_doiMatKhau";
+            this.lb_doiMatKhau.Size = new System.Drawing.Size(63, 13);
+            this.lb_doiMatKhau.TabIndex = 8;
+            this.lb_doiMatKhau.Text = "Đổi mật khẩu";
+            this.lb_doiMatKhau.Click += new System.EventHandler(this.lb_doiMatKhau_Click);
             // 
             // frmDangNhap
             // 
@@ -124,6 +144,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(293, 312);
+            this.Controls.Add(this.lb_doiMatKhau);
+            this.Controls.Add(this.lb_quenMatKhau);
             this.Controls.Add(this.chk_showHide);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
@@ -161,5 +183,7 @@
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.CheckEdit chk_showHide;
+        private DevExpress.XtraEditors.HyperlinkLabelControl lb_quenMatKhau;
+        private DevExpress.XtraEditors.HyperlinkLabelControl lb_doiMatKhau;
     }
 }

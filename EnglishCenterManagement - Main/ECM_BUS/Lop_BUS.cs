@@ -21,11 +21,6 @@ namespace ECM_BUS
             Lop_DAO lopDao = new Lop_DAO();
             return lopDao.loadDSLop2(makhoa);
         }
-        public List<Lop_DTO> DanhSachLopTheoMaLop(string malop)
-        {
-            Lop_DAO lopDAO = new Lop_DAO();
-            return lopDAO.LoadDSLopTheoMaLop(malop);
-        }
         public string maLopTiepTheo()
         {
             Lop_DAO hvDAO = new Lop_DAO();

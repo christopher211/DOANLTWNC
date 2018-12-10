@@ -280,7 +280,9 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lke_khoaHoc.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MaKH", "Mã khóa học", 10, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenKH", "Tên khóa học")});
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenKH", "Tên khóa học"),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("HocPhi", "Học phí", 20, DevExpress.Utils.FormatType.None, "", false, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("NgayBatDau", "Ngày bắt đầu", 20, DevExpress.Utils.FormatType.Custom, "yyyy/MM/dd", false, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
             this.lke_khoaHoc.Properties.NullText = "";
             this.lke_khoaHoc.Size = new System.Drawing.Size(120, 20);
             this.lke_khoaHoc.TabIndex = 40;
@@ -294,7 +296,10 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lke_lopHoc.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MaLop", "Mã lớp", 10, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenLop", "Tên lớp")});
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenLop", "Tên lớp"),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("LichHoc", "Lịch học"),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("GioBatDau", "Thời gian"),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MaNV", "Mã nhân viên", 20, DevExpress.Utils.FormatType.None, "", false, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
             this.lke_lopHoc.Properties.NullText = "";
             this.lke_lopHoc.Size = new System.Drawing.Size(120, 20);
             this.lke_lopHoc.TabIndex = 41;
@@ -391,7 +396,7 @@
         private DevExpress.XtraEditors.ComboBoxEdit cbo_gioiTinh;
         private DevExpress.XtraEditors.DateEdit dt_ngaySinh;
         private DevExpress.XtraEditors.LookUpEdit lke_khoaHoc;
-        private DevExpress.XtraEditors.LookUpEdit lke_lopHoc;
         private DevExpress.XtraEditors.LabelControl labelControl1;
+        public DevExpress.XtraEditors.LookUpEdit lke_lopHoc;
     }
 }

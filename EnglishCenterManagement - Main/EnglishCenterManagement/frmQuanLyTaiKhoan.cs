@@ -49,12 +49,14 @@ namespace EnglishCenterManagement
         {
             Loading.ShowLoading();
             ShowForm(ucTK);
+            ucTK.LoadTK();
             Loading.HideLoading();
         }
         private void btn_khoiPhucTK_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
             Loading.ShowLoading();
             ShowForm(ucKPTK);
+            ucKPTK.LoadTKDaXoa();
             Loading.HideLoading();
         }
 

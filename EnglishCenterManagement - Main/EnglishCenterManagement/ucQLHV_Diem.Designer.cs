@@ -49,13 +49,6 @@
             this.lke_maLop = new DevExpress.XtraEditors.LookUpEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.btn_timLop = new DevExpress.XtraEditors.SimpleButton();
-            this.gp_timKiem = new DevExpress.XtraEditors.GroupControl();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.btn_timTenHV = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.btn_timMaHV = new DevExpress.XtraEditors.SimpleButton();
-            this.txt_timTenHV = new DevExpress.XtraEditors.TextEdit();
-            this.txt_timMaHV = new DevExpress.XtraEditors.TextEdit();
             this.txt_diemNghe = new DevExpress.XtraEditors.TextEdit();
             this.gp_thongTinChiTiet = new DevExpress.XtraEditors.GroupControl();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
@@ -77,10 +70,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbo_khoaHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbo_maLop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lke_maLop.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gp_timKiem)).BeginInit();
-            this.gp_timKiem.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timTenHV.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timMaHV.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_diemNghe.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gp_thongTinChiTiet)).BeginInit();
             this.gp_thongTinChiTiet.SuspendLayout();
@@ -122,7 +111,8 @@
             this.cl_diemTB});
             this.dgview_diemHocVien.GridControl = this.dgcontrol_diemHocVien;
             this.dgview_diemHocVien.Name = "dgview_diemHocVien";
-            this.dgview_diemHocVien.OptionsFind.FindFilterColumns = "*ID;MaHV;MaKhoaHoc;DiemHV;";
+            this.dgview_diemHocVien.OptionsFind.AlwaysVisible = true;
+            this.dgview_diemHocVien.OptionsFind.FindFilterColumns = "*ID;MSHV;MaKH;Ho;Ten;MaLop;Nghe;Noi;Doc;Viet;DiemTB";
             // 
             // cl_mahv
             // 
@@ -273,7 +263,7 @@
             this.btn_luuDiem.Appearance.Options.UseFont = true;
             this.btn_luuDiem.Appearance.Options.UseForeColor = true;
             this.btn_luuDiem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_luuDiem.ImageOptions.Image")));
-            this.btn_luuDiem.Location = new System.Drawing.Point(245, 95);
+            this.btn_luuDiem.Location = new System.Drawing.Point(519, 54);
             this.btn_luuDiem.Name = "btn_luuDiem";
             this.btn_luuDiem.Size = new System.Drawing.Size(66, 20);
             this.btn_luuDiem.TabIndex = 49;
@@ -286,7 +276,7 @@
             this.labelControl2.Appearance.ForeColor = System.Drawing.Color.Green;
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.Appearance.Options.UseForeColor = true;
-            this.labelControl2.Location = new System.Drawing.Point(377, 3);
+            this.labelControl2.Location = new System.Drawing.Point(364, 3);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(268, 42);
             this.labelControl2.TabIndex = 32;
@@ -294,7 +284,7 @@
             // 
             // lke_maLop
             // 
-            this.lke_maLop.Location = new System.Drawing.Point(220, 70);
+            this.lke_maLop.Location = new System.Drawing.Point(423, 76);
             this.lke_maLop.Name = "lke_maLop";
             this.lke_maLop.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -309,7 +299,7 @@
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(147, 71);
+            this.labelControl5.Location = new System.Drawing.Point(350, 77);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(55, 17);
             this.labelControl5.TabIndex = 41;
@@ -317,79 +307,16 @@
             // 
             // btn_timLop
             // 
-            this.btn_timLop.Location = new System.Drawing.Point(394, 70);
+            this.btn_timLop.Location = new System.Drawing.Point(597, 76);
             this.btn_timLop.Name = "btn_timLop";
             this.btn_timLop.Size = new System.Drawing.Size(53, 20);
             this.btn_timLop.TabIndex = 42;
             this.btn_timLop.Text = "Tìm";
             this.btn_timLop.Click += new System.EventHandler(this.btn_timLop_Click);
             // 
-            // gp_timKiem
-            // 
-            this.gp_timKiem.Controls.Add(this.labelControl7);
-            this.gp_timKiem.Controls.Add(this.btn_timTenHV);
-            this.gp_timKiem.Controls.Add(this.labelControl8);
-            this.gp_timKiem.Controls.Add(this.btn_timMaHV);
-            this.gp_timKiem.Controls.Add(this.txt_timTenHV);
-            this.gp_timKiem.Controls.Add(this.txt_timMaHV);
-            this.gp_timKiem.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.gp_timKiem.Location = new System.Drawing.Point(103, 111);
-            this.gp_timKiem.Name = "gp_timKiem";
-            this.gp_timKiem.Size = new System.Drawing.Size(387, 92);
-            this.gp_timKiem.TabIndex = 0;
-            this.gp_timKiem.Text = "Tìm kiếm";
-            // 
-            // labelControl7
-            // 
-            this.labelControl7.Location = new System.Drawing.Point(38, 60);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(61, 13);
-            this.labelControl7.TabIndex = 42;
-            this.labelControl7.Text = "Tên học viên";
-            // 
-            // btn_timTenHV
-            // 
-            this.btn_timTenHV.Location = new System.Drawing.Point(291, 57);
-            this.btn_timTenHV.Name = "btn_timTenHV";
-            this.btn_timTenHV.Size = new System.Drawing.Size(53, 20);
-            this.btn_timTenHV.TabIndex = 4;
-            this.btn_timTenHV.Text = "Tìm";
-            this.btn_timTenHV.Click += new System.EventHandler(this.btn_timTenHV_Click);
-            // 
-            // labelControl8
-            // 
-            this.labelControl8.Location = new System.Drawing.Point(42, 34);
-            this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(57, 13);
-            this.labelControl8.TabIndex = 41;
-            this.labelControl8.Text = "Mã học viên";
-            // 
-            // btn_timMaHV
-            // 
-            this.btn_timMaHV.Location = new System.Drawing.Point(291, 31);
-            this.btn_timMaHV.Name = "btn_timMaHV";
-            this.btn_timMaHV.Size = new System.Drawing.Size(53, 20);
-            this.btn_timMaHV.TabIndex = 2;
-            this.btn_timMaHV.Text = "Tìm";
-            this.btn_timMaHV.Click += new System.EventHandler(this.btn_timMaHV_Click);
-            // 
-            // txt_timTenHV
-            // 
-            this.txt_timTenHV.Location = new System.Drawing.Point(117, 57);
-            this.txt_timTenHV.Name = "txt_timTenHV";
-            this.txt_timTenHV.Size = new System.Drawing.Size(161, 20);
-            this.txt_timTenHV.TabIndex = 3;
-            // 
-            // txt_timMaHV
-            // 
-            this.txt_timMaHV.Location = new System.Drawing.Point(117, 31);
-            this.txt_timMaHV.Name = "txt_timMaHV";
-            this.txt_timMaHV.Size = new System.Drawing.Size(161, 20);
-            this.txt_timMaHV.TabIndex = 1;
-            // 
             // txt_diemNghe
             // 
-            this.txt_diemNghe.Location = new System.Drawing.Point(33, 95);
+            this.txt_diemNghe.Location = new System.Drawing.Point(307, 54);
             this.txt_diemNghe.Name = "txt_diemNghe";
             this.txt_diemNghe.Properties.MaxLength = 3;
             this.txt_diemNghe.Size = new System.Drawing.Size(47, 20);
@@ -414,15 +341,15 @@
             this.gp_thongTinChiTiet.Controls.Add(this.txt_diemNoi);
             this.gp_thongTinChiTiet.Controls.Add(this.txt_diemNghe);
             this.gp_thongTinChiTiet.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.gp_thongTinChiTiet.Location = new System.Drawing.Point(544, 73);
+            this.gp_thongTinChiTiet.Location = new System.Drawing.Point(199, 114);
             this.gp_thongTinChiTiet.Name = "gp_thongTinChiTiet";
-            this.gp_thongTinChiTiet.Size = new System.Drawing.Size(345, 130);
+            this.gp_thongTinChiTiet.Size = new System.Drawing.Size(604, 89);
             this.gp_thongTinChiTiet.TabIndex = 46;
             this.gp_thongTinChiTiet.Text = "Thông tin chi tiết";
             // 
             // labelControl11
             // 
-            this.labelControl11.Location = new System.Drawing.Point(224, 27);
+            this.labelControl11.Location = new System.Drawing.Point(205, 35);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(31, 13);
             this.labelControl11.TabIndex = 58;
@@ -430,7 +357,7 @@
             // 
             // txt_maLop
             // 
-            this.txt_maLop.Location = new System.Drawing.Point(224, 46);
+            this.txt_maLop.Location = new System.Drawing.Point(205, 54);
             this.txt_maLop.Name = "txt_maLop";
             this.txt_maLop.Properties.ReadOnly = true;
             this.txt_maLop.Size = new System.Drawing.Size(77, 20);
@@ -438,7 +365,7 @@
             // 
             // labelControl10
             // 
-            this.labelControl10.Location = new System.Drawing.Point(129, 27);
+            this.labelControl10.Location = new System.Drawing.Point(110, 35);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(60, 13);
             this.labelControl10.TabIndex = 56;
@@ -446,7 +373,7 @@
             // 
             // txt_makh
             // 
-            this.txt_makh.Location = new System.Drawing.Point(129, 46);
+            this.txt_makh.Location = new System.Drawing.Point(110, 54);
             this.txt_makh.Name = "txt_makh";
             this.txt_makh.Properties.ReadOnly = true;
             this.txt_makh.Size = new System.Drawing.Size(77, 20);
@@ -454,7 +381,7 @@
             // 
             // labelControl9
             // 
-            this.labelControl9.Location = new System.Drawing.Point(192, 77);
+            this.labelControl9.Location = new System.Drawing.Point(466, 36);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(18, 13);
             this.labelControl9.TabIndex = 54;
@@ -462,7 +389,7 @@
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(139, 77);
+            this.labelControl6.Location = new System.Drawing.Point(413, 36);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(19, 13);
             this.labelControl6.TabIndex = 53;
@@ -470,7 +397,7 @@
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(86, 77);
+            this.labelControl4.Location = new System.Drawing.Point(360, 36);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(15, 13);
             this.labelControl4.TabIndex = 52;
@@ -478,7 +405,7 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(33, 77);
+            this.labelControl1.Location = new System.Drawing.Point(307, 36);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(25, 13);
             this.labelControl1.TabIndex = 51;
@@ -486,7 +413,7 @@
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(33, 27);
+            this.labelControl3.Location = new System.Drawing.Point(14, 35);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(57, 13);
             this.labelControl3.TabIndex = 50;
@@ -494,7 +421,7 @@
             // 
             // txt_mshv
             // 
-            this.txt_mshv.Location = new System.Drawing.Point(33, 46);
+            this.txt_mshv.Location = new System.Drawing.Point(14, 54);
             this.txt_mshv.Name = "txt_mshv";
             this.txt_mshv.Properties.ReadOnly = true;
             this.txt_mshv.Size = new System.Drawing.Size(77, 20);
@@ -502,7 +429,7 @@
             // 
             // txt_diemViet
             // 
-            this.txt_diemViet.Location = new System.Drawing.Point(192, 95);
+            this.txt_diemViet.Location = new System.Drawing.Point(466, 54);
             this.txt_diemViet.Name = "txt_diemViet";
             this.txt_diemViet.Properties.MaxLength = 3;
             this.txt_diemViet.Size = new System.Drawing.Size(47, 20);
@@ -511,7 +438,7 @@
             // 
             // txt_diemDoc
             // 
-            this.txt_diemDoc.Location = new System.Drawing.Point(139, 95);
+            this.txt_diemDoc.Location = new System.Drawing.Point(413, 54);
             this.txt_diemDoc.Name = "txt_diemDoc";
             this.txt_diemDoc.Properties.MaxLength = 3;
             this.txt_diemDoc.Size = new System.Drawing.Size(47, 20);
@@ -520,7 +447,7 @@
             // 
             // txt_diemNoi
             // 
-            this.txt_diemNoi.Location = new System.Drawing.Point(86, 95);
+            this.txt_diemNoi.Location = new System.Drawing.Point(360, 54);
             this.txt_diemNoi.Name = "txt_diemNoi";
             this.txt_diemNoi.Properties.MaxLength = 3;
             this.txt_diemNoi.Size = new System.Drawing.Size(47, 20);
@@ -532,7 +459,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.gp_thongTinChiTiet);
-            this.Controls.Add(this.gp_timKiem);
             this.Controls.Add(this.btn_timLop);
             this.Controls.Add(this.labelControl5);
             this.Controls.Add(this.lke_maLop);
@@ -547,11 +473,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbo_khoaHoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbo_maLop)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lke_maLop.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gp_timKiem)).EndInit();
-            this.gp_timKiem.ResumeLayout(false);
-            this.gp_timKiem.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timTenHV.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_timMaHV.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_diemNghe.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gp_thongTinChiTiet)).EndInit();
             this.gp_thongTinChiTiet.ResumeLayout(false);
@@ -583,13 +504,6 @@
         private DevExpress.XtraEditors.LookUpEdit lke_maLop;
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.SimpleButton btn_timLop;
-        private DevExpress.XtraEditors.GroupControl gp_timKiem;
-        private DevExpress.XtraEditors.LabelControl labelControl7;
-        private DevExpress.XtraEditors.SimpleButton btn_timTenHV;
-        private DevExpress.XtraEditors.LabelControl labelControl8;
-        private DevExpress.XtraEditors.SimpleButton btn_timMaHV;
-        private DevExpress.XtraEditors.TextEdit txt_timTenHV;
-        private DevExpress.XtraEditors.TextEdit txt_timMaHV;
         private DevExpress.XtraGrid.Columns.GridColumn cl_diemNoi;
         private DevExpress.XtraGrid.Columns.GridColumn cl_diemDoc;
         private DevExpress.XtraGrid.Columns.GridColumn cl_diemViet;

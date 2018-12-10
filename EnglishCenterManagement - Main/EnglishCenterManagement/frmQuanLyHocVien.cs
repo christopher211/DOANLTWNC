@@ -53,6 +53,7 @@ namespace EnglishCenterManagement
         {
             Loading.ShowLoading();
             ShowForm(ucQLHV_DS);
+            ucQLHV_DS.LoadDSHV();
             Loading.HideLoading();
         }
 
@@ -67,6 +68,7 @@ namespace EnglishCenterManagement
         {
             Loading.ShowLoading();
             ShowForm(ucQLHV_Nghi);
+            ucQLHV_Nghi.LoadDSHVDaNghi();
             Loading.HideLoading();
         }
 

@@ -36,83 +36,31 @@ namespace EnglishCenterManagement
         private void ucQLHV_DanhSach_Load(object sender, EventArgs e)
         {
             LoadDSHV();
-            LoadDSKhoaHoc();
-            LoadDSLop();
         }
         private void dgcontrol_hocVien_Load(object sender, EventArgs e)
         {
             dgview_hocVien.ClearSelection();
         }
-        private void LoadDSHV()
+        public void LoadDSHV()
         {
             List<HocVien_DTO> lsHocVien = new List<HocVien_DTO>();
             lsHocVien = hvBUS.danhSachHV();
             dgcontrol_hocVien.DataSource = lsHocVien;
         }
-        private void LoadDSHVTheoMSHV()
-        {
-            List<HocVien_DTO> lsHocVien = new List<HocVien_DTO>();
-            lsHocVien = hvBUS.danhsachHVTheoMSHV(txt_timHVMSHV.Text);
-            dgcontrol_hocVien.DataSource = lsHocVien;
-        }
-        private void LoadDSHVTheoHoTen()
-        {
-            List<HocVien_DTO> lsHocVien = new List<HocVien_DTO>();
-            lsHocVien = hvBUS.danhsachHVTheoHoTen(txt_timHVHoTen.Text);
-            dgcontrol_hocVien.DataSource = lsHocVien;
-        }
-        private void LoadDSHVTheoKhoaHoc()
-        {
-            List<HocVien_DTO> lsHocVien = new List<HocVien_DTO>();
-            lsHocVien = hvBUS.danhsachHVTheoKhoaHoc(lke_khoaHoc.Text);
-            dgcontrol_hocVien.DataSource = lsHocVien;
-        }
-        private void LoadDSHVTheoLop()
-        {
-            List<HocVien_DTO> lsHocVien = new List<HocVien_DTO>();
-            lsHocVien = hvBUS.danhsachHVTheoLop(lke_lopHoc.Text);
-            dgcontrol_hocVien.DataSource = lsHocVien;
-        }       
-        private void LoadDSLop()
-        {
-            Lop_BUS lopBUS = new Lop_BUS();
-            Lop_DTO lopDAO = new Lop_DTO();
-            lsLop = lopBUS.DanhSachLop();
-
-            lke_lopHoc.Properties.DataSource = lsLop;
-            lke_lopHoc.Properties.DisplayMember = "MaLop";
-            lke_lopHoc.Properties.ValueMember = "MaLop";
-
-            lke_lopHoc.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MaLop", "Mã Lớp Học", 10));
-            lke_lopHoc.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenLop", "Tên Lớp Học", 20));
-        }
-        private void LoadDSKhoaHoc()
-        {
-            KhoaHoc_BUS khBUS = new KhoaHoc_BUS();
-            KhoaHoc_DTO khDTO = new KhoaHoc_DTO();
-            lsKhoaHoc = khBUS.DanhSachKH();
-
-            lke_khoaHoc.Properties.DataSource = lsKhoaHoc;
-            lke_khoaHoc.Properties.DisplayMember = "MaKH";
-            lke_khoaHoc.Properties.ValueMember = "MaKH";
-
-            lke_khoaHoc.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo("MaKH", "Mã Khóa Học", 10));
-            lke_khoaHoc.Properties.Columns.Add(new DevExpress.XtraEditors.Controls.LookUpColumnInfo("TenKH", "Tên Khóa Học", 20));
-        }
         private void btn_themHocVien_Click(object sender, EventArgs e)
         {
-            frmThemHocVien f = new frmThemHocVien();
+            frmThemHocVien f = new frmThemHocVien(this);
             f.ShowDialog();
         }
         private void btn_themKhoaHoc_Click(object sender, EventArgs e)
         {
             if (dgview_hocVien.SelectedRowsCount == 0)
             {
-                XtraMessageBox.Show("Chưa chọn đối tượng để thêm", "Thông báo");
+                XtraMessageBox.Show("Chưa chọn đối tượng để thêm", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                frmThemKhoaHocChoHocVien f = new frmThemKhoaHocChoHocVien();
+                frmThemKhoaHocChoHocVien f = new frmThemKhoaHocChoHocVien(this);
                 int[] selectedRows = dgview_hocVien.GetSelectedRows();
                 foreach (int rowHandle in selectedRows)
                 {
@@ -142,7 +90,7 @@ namespace EnglishCenterManagement
             }
             else
             {
-                frmSuaHocVien f = new frmSuaHocVien();
+                frmSuaHocVien f = new frmSuaHocVien(this);
                 int[] selectedRows = dgview_hocVien.GetSelectedRows();                
                 foreach (int rowHandle in selectedRows)
                 {
@@ -167,7 +115,7 @@ namespace EnglishCenterManagement
         {
             if(dgview_hocVien.SelectedRowsCount == 0)
             {
-                XtraMessageBox.Show("Chưa chọn đối tượng để sửa", "Thông báo");
+                XtraMessageBox.Show("Chưa chọn đối tượng để sửa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -193,45 +141,5 @@ namespace EnglishCenterManagement
         {
             LoadDSHV();
         }        
-        private void txt_timHVMSHV_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-                //&& (e.KeyChar != '.' || (e.KeyChar == '.' &&
-                //        (txt_sdt.Text.Length == 0 || txt_sdt.Text.IndexOf('.') != -1))))
-                e.Handled = true;
-
-            //if (e.KeyChar == (char)3)
-            //{
-            //    if (txt_timHVMSHV.Text.Length == 2)
-            //    {
-                                        
-            //    }
-
-            //}
-            //else if()
-            //    {
-
-            //}
-        }
-        private void btn_timHVMSHV_Click(object sender, EventArgs e)
-        {
-            LoadDSHVTheoMSHV();
-        }
-
-        private void btn_timHVHoTen_Click(object sender, EventArgs e)
-        {
-            LoadDSHVTheoHoTen();
-        }
-
-        private void btn_timHVKhoaHoc_Click(object sender, EventArgs e)
-        {
-            LoadDSHVTheoKhoaHoc();
-        }
-
-        private void btn_timHVLop_Click(object sender, EventArgs e)
-        {
-            LoadDSHVTheoLop();
-        }
-        
     }
 }

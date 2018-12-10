@@ -28,7 +28,7 @@ namespace EnglishCenterManagement
         {
             LoadTK();
         }
-        private void LoadTK()
+        public void LoadTK()
         {
             lsTaiKhoan = new List<TaiKhoan_DTO>();
             lsTaiKhoan = tkBUS.danhsachTK();
@@ -37,7 +37,7 @@ namespace EnglishCenterManagement
         }
         private void btn_themTaiKhoan_Click(object sender, EventArgs e)
         {
-            frmThemTaiKhoan f = new frmThemTaiKhoan();
+            frmThemTaiKhoan f = new frmThemTaiKhoan(this);
             f.ShowDialog();
         }
 
@@ -49,7 +49,7 @@ namespace EnglishCenterManagement
             }
             else
             {
-                frmDoiMatKhau f = new frmDoiMatKhau();
+                subFormDoiMatKhau f = new subFormDoiMatKhau(this);
                 int[] selectedRows = dgview_taiKhoan.GetSelectedRows();
                 foreach (int rowHandle in selectedRows)
                 {

@@ -70,13 +70,14 @@
             this.cl_loaiTK});
             this.dgview_taiKhoan.GridControl = this.dgcontrol_taiKhoan;
             this.dgview_taiKhoan.Name = "dgview_taiKhoan";
+            this.dgview_taiKhoan.OptionsFind.AlwaysVisible = true;
             this.dgview_taiKhoan.OptionsFind.FindFilterColumns = "*MaNV;TenNV;HoNV;TenDangNhap;MatKhau;ChucVu;";
             this.dgview_taiKhoan.OptionsFind.ShowFindButton = false;
             this.dgview_taiKhoan.OptionsSelection.EnableAppearanceFocusedCell = false;
             // 
             // cl_manv
             // 
-            this.cl_manv.Caption = "MaNV";
+            this.cl_manv.Caption = "Mã nhân viên";
             this.cl_manv.FieldName = "MaNV";
             this.cl_manv.Name = "cl_manv";
             this.cl_manv.OptionsColumn.AllowEdit = false;

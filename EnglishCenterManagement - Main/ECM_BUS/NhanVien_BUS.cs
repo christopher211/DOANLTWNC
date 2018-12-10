@@ -17,25 +17,10 @@ namespace ECM_BUS
             NhanVien_DAO giaovien = new NhanVien_DAO();
             return giaovien.LoadDSGV();
         }
-        public List<NhanVien_DTO> danhsachGVTheoMaGV(string manv)
-        {
-            NhanVien_DAO nvDAO = new NhanVien_DAO();
-            return nvDAO.LoadDSGVTheoMaGV(manv);
-        }
         public List<NhanVien_DTO> danhsachGVDaNghi()
         {
             NhanVien_DAO nhanvien = new NhanVien_DAO();
             return nhanvien.LoadDSNVDaNghi();
-        }
-        public List<NhanVien_DTO> danhsachGVTheoHoTen(string hoten)
-        {
-            NhanVien_DAO nvDAO = new NhanVien_DAO();
-            return nvDAO.LoadDSGVTheoHoTen(hoten);
-        }
-        public List<NhanVien_DTO> danhsachGVTheoSDT(string sdt)
-        {
-            NhanVien_DAO nvDAO = new NhanVien_DAO();
-            return nvDAO.LoadDSGVTheoSDT(sdt);
         }
         public int AddGV(NhanVien_DTO gvDTO)
         {
@@ -71,26 +56,6 @@ namespace ECM_BUS
             NhanVien_DAO nvDAO = new NhanVien_DAO();
             return nvDAO.LoadDSNVChuaCoTaiKhoan();
         }
-        public List<NhanVien_DTO> danhsachNVTheoMaNV(string manv)
-        {
-            NhanVien_DAO nvDAO = new NhanVien_DAO();
-            return nvDAO.LoadDSNVTheoMaNV(manv);
-        }
-        public List<NhanVien_DTO> danhsachNVTheoHoTen(string hoten)
-        {
-            NhanVien_DAO nvDAO = new NhanVien_DAO();
-            return nvDAO.LoadDSNVTheoHoTen(hoten);
-        }
-        public List<NhanVien_DTO> danhsachNVTheoSDT(string sdt)
-        {
-            NhanVien_DAO nvDAO = new NhanVien_DAO();
-            return nvDAO.LoadDSNVTheoSDT(sdt);
-        }
-        public List<NhanVien_DTO> danhsachNVTheoChucVu(string chucvu)
-        {
-            NhanVien_DAO nvDAO = new NhanVien_DAO();
-            return nvDAO.LoadDSNVTheoChucVu(chucvu);
-        }
         public int AddNV(NhanVien_DTO nvDTO)
         {
             NhanVien_DAO nvDAO = new NhanVien_DAO();
@@ -116,25 +81,7 @@ namespace ECM_BUS
 
 
 
-        #region NhanVienDaNghi
-
-        public List<NhanVien_DTO> danhsachNVDaNghiTheoMaNV(string manv)
-        {
-            NhanVien_DAO nvDAO = new NhanVien_DAO();
-            return nvDAO.LoadDSNVDaNghiTheoMaNV(manv);
-        }
-        public List<NhanVien_DTO> danhsachNVDaNghiTheoHoTen(string hoten)
-        {
-            NhanVien_DAO nvDAO = new NhanVien_DAO();
-            return nvDAO.LoadDSNVDaNghiTheoHoTen(hoten);
-        }
-        public List<NhanVien_DTO> danhsachNVDaNghiTheoSDT(string sdt)
-        {
-            NhanVien_DAO nvDAO = new NhanVien_DAO();
-            return nvDAO.LoadDSNVDaNghiTheoSDT(sdt);
-        }
-
-        #endregion
+      
         public string maNhanVienTiepTheo()
         {
             NhanVien_DAO nvDAO = new NhanVien_DAO();

@@ -44,7 +44,7 @@ namespace ECM_DAO
             List<Lop_DTO> lsLop = new List<Lop_DTO>();
             SqlConnection connect = DataProvider.TaoKetNoi();
 
-            string strTruyVan = "SELECT MaLop, TenLop FROM Lop WHERE MaKhoaHoc = @MaKhoaHoc GROUP BY MaLop, TenLop, MaKhoaHoc";
+            string strTruyVan = "SELECT MaLop, TenLop, LichHoc, GioBatDau, MaNV FROM Lop WHERE MaKhoaHoc = @MaKhoaHoc GROUP BY MaLop, TenLop, MaKhoaHoc, LichHoc, GioBatDau, MaNV";
             SqlParameter[] parameter = new SqlParameter[1];
             parameter[0] = new SqlParameter("@MaKhoaHoc", MaKhoa);
             SqlDataReader reader = DataProvider.TruyVanDuLieu(strTruyVan, parameter, connect);
@@ -53,38 +53,10 @@ namespace ECM_DAO
                 Lop_DTO loai = new Lop_DTO()
                 {
                     MaLop = reader["MaLop"].ToString(),
-                    TenLop = reader["TenLop"].ToString()
-                };
-                lsLop.Add(loai);
-            }
-            reader.Close();
-            connect.Close();
-
-            return lsLop;
-        }
-        public List<Lop_DTO> LoadDSLopTheoMaLop(string malop)
-        {
-            List<Lop_DTO> lsLop = new List<Lop_DTO>();
-            SqlConnection connect = DataProvider.TaoKetNoi();
-
-            string strTruyVan = "SELECT * FROM Lop WHERE MaLop = @MaLop AND TrangThai = 1";
-            SqlParameter[] parameter = new SqlParameter[1];
-            parameter[0] = new SqlParameter("@MaLop", malop);
-            SqlDataReader reader = DataProvider.TruyVanDuLieu(strTruyVan, parameter, connect);
-            while (reader.Read())
-            {
-                Lop_DTO loai = new Lop_DTO()
-                {
-                    MaLop = reader["MaLop"].ToString(),
                     TenLop = reader["TenLop"].ToString(),
                     MaNV = reader["MaNV"].ToString(),
-                    MaPhg = reader["MaPhg"].ToString(),
-                    MaKhoaHoc = reader["MaKhoaHoc"].ToString(),
                     LichHoc = reader["LichHoc"].ToString(),
-                    GioBatDau = reader["GioBatDau"].ToString(),
-                    GioKetThuc = reader["GioKetThuc"].ToString(),
-                    //SoHV = int.Parse(reader["SoHV"].ToString()),
-                    TrangThai = int.Parse(reader["TrangThai"].ToString())
+                    GioBatDau = reader["GioBatDau"].ToString()
                 };
                 lsLop.Add(loai);
             }
@@ -93,7 +65,6 @@ namespace ECM_DAO
 
             return lsLop;
         }
-
         public string LayMaLopLonNhat()
         {
             string strTruyVan = "SELECT MAX(MaLop) FROM Lop";

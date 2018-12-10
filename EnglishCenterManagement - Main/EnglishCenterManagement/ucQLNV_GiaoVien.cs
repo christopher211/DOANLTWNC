@@ -28,73 +28,23 @@ namespace EnglishCenterManagement
         {
             LoadDSNV_GV();
         }
-        #region textBoxEvent
-
-        private void txt_timGVSDT_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-                //&& (e.KeyChar != '.' || (e.KeyChar == '.' &&
-                //        (txt_sdt.Text.Length == 0 || txt_sdt.Text.IndexOf('.') != -1))))
-                e.Handled = true;
-        }
-        private void txt_timGVMaGV_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                btn_timGVMaGV_Click(this, new EventArgs());
-            }
-        }
-        private void txt_timGVHoTen_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                btn_timGVHoTen_Click(this, new EventArgs());
-            }
-        }
-        private void txt_timGVSDT_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                btn_timGVSDT_Click(this, new EventArgs());
-            }
-        }
-
-        #endregion
-
         public void LoadDSNV_GV()
         {
             List<NhanVien_DTO> lsGiaoVien = new List<NhanVien_DTO>();
             lsGiaoVien = gvBUS.danhsachGV();
             dgcontrol_giaoVien.DataSource = lsGiaoVien;
         }
-        public void LoadDSGVTheoMaGV()
-        {
-            List<NhanVien_DTO> lsGiaoVien = new List<NhanVien_DTO>();
-            lsGiaoVien = gvBUS.danhsachGVTheoMaGV(txt_timGVMaGV.Text);
-            dgcontrol_giaoVien.DataSource = lsGiaoVien;
-        }
-        public void LoadDSGVTheoHoTen()
-        {
-            List<NhanVien_DTO> lsGiaoVien = new List<NhanVien_DTO>();
-            lsGiaoVien = gvBUS.danhsachGVTheoHoTen(txt_timGVHoTen.Text);
-            dgcontrol_giaoVien.DataSource = lsGiaoVien;
-        }
-        public void LoadDSGVTheoSDT()
-        {
-            List<NhanVien_DTO> lsGiaoVien = new List<NhanVien_DTO>();
-            lsGiaoVien = gvBUS.danhsachGVTheoSDT(txt_timGVSDT.Text);
-            dgcontrol_giaoVien.DataSource = lsGiaoVien;
-        }
+        
         private void btn_themGiaoVien_Click(object sender, EventArgs e)
         {
-            frmThemGiaoVien f = new frmThemGiaoVien();
+            frmThemGiaoVien f = new frmThemGiaoVien(this);
             f.ShowDialog();
         }
         private void btn_xoaGiaoVien_Click(object sender, EventArgs e)
         {
             if (dgview_giaoVien.SelectedRowsCount == 0)
             {
-                XtraMessageBox.Show("Chưa chọn đối tượng để xóa");
+                XtraMessageBox.Show("Chưa chọn đối tượng để xóa", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -123,11 +73,11 @@ namespace EnglishCenterManagement
         {
             if (dgview_giaoVien.SelectedRowsCount == 0)
             {
-                XtraMessageBox.Show("Chưa chọn đối tượng để sửa", "Thông báo");
+                XtraMessageBox.Show("Chưa chọn đối tượng để sửa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                frmSuaGiaoVien f = new frmSuaGiaoVien();
+                frmSuaGiaoVien f = new frmSuaGiaoVien(this);
                 int[] selectedRows = dgview_giaoVien.GetSelectedRows();
                 foreach (int rowHandle in selectedRows)
                 {
@@ -148,19 +98,5 @@ namespace EnglishCenterManagement
                 f.ShowDialog();
             }
         }
-        private void btn_timGVMaGV_Click(object sender, EventArgs e)
-        {
-            LoadDSGVTheoMaGV();
-        }
-        private void btn_timGVHoTen_Click(object sender, EventArgs e)
-        {
-            LoadDSGVTheoHoTen();
-        }
-        private void btn_timGVSDT_Click(object sender, EventArgs e)
-        {
-            LoadDSGVTheoSDT();
-        }
-
-        
     }
 }

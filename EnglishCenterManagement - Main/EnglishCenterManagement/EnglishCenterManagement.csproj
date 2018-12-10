@@ -87,11 +87,17 @@
     <Compile Include="frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDoiMatKhau.cs">
+    <Compile Include="ReportWaitingForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDoiMatKhau.Designer.cs">
-      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+    <Compile Include="ReportWaitingForm.Designer.cs">
+      <DependentUpon>ReportWaitingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subFormDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subFormDoiMatKhau.Designer.cs">
+      <DependentUpon>subFormDoiMatKhau.cs</DependentUpon>
     </Compile>
     <Compile Include="frmHelp.cs">
       <SubType>Form</SubType>
@@ -216,6 +222,12 @@
     <Compile Include="rptInHoaDon.Designer.cs">
       <DependentUpon>rptInHoaDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="subFormDoiMatKhau_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subFormDoiMatKhau_2.Designer.cs">
+      <DependentUpon>subFormDoiMatKhau_2.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucKhoiPhucTK.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -285,8 +297,11 @@
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDoiMatKhau.resx">
-      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+    <EmbeddedResource Include="ReportWaitingForm.resx">
+      <DependentUpon>ReportWaitingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subFormDoiMatKhau.resx">
+      <DependentUpon>subFormDoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHelp.resx">
       <DependentUpon>frmHelp.cs</DependentUpon>
@@ -358,6 +373,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="rptInHoaDon.resx">
       <DependentUpon>rptInHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subFormDoiMatKhau_2.resx">
+      <DependentUpon>subFormDoiMatKhau_2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucKhoiPhucTK.resx">
       <DependentUpon>ucKhoiPhucTK.cs</DependentUpon>

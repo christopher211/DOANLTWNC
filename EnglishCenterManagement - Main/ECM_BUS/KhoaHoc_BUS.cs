@@ -15,16 +15,6 @@ namespace ECM_BUS
             KhoaHoc_DAO khDAO = new KhoaHoc_DAO();
             return khDAO.LoadDSKhoaHoc();
         }
-        public List<KhoaHoc_DTO> DanhSachKHTheoMaKH(string makh)
-        {
-            KhoaHoc_DAO khDAO = new KhoaHoc_DAO();
-            return khDAO.LoadDSKhoaHocTheoMaKH(makh);
-        }
-        public List<KhoaHoc_DTO> DanhSachKHTheoTen(string tenkh)
-        {
-            KhoaHoc_DAO khDAO = new KhoaHoc_DAO();
-            return khDAO.LoadDSKhoaHocTheoTen(tenkh);
-        }
         public string maKhoaHocTiepTheo()
         {
             KhoaHoc_DAO khDAO = new KhoaHoc_DAO();

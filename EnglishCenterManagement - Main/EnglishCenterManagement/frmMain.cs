@@ -76,12 +76,17 @@ namespace EnglishCenterManagement
             DialogResult result = XtraMessageBox.Show("Bạn có muốn đăng xuất chương trình?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (DialogResult.Yes == result)
             {
+                Form f = this.CheckExist(typeof(frmDangNhap));
+                if(f != null)
+                {
+                    f.Close();
+                }
                 isAdminDangNhap = false;
                 isModDangNhap = false;
                 isUserDangNhap = false;
                 this.Close();
-                frmDangNhap f = new frmDangNhap();
-                f.Show();
+                frmDangNhap fDN = new frmDangNhap();
+                fDN.ShowDialog();
             }      
         }
         private void btn_quanLyHocVien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -237,7 +242,30 @@ namespace EnglishCenterManagement
 
         private void btn_bienLai_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            if (isAdminDangNhap || isModDangNhap || isUserDangNhap)
+            {
+                Loading.ShowLoading();
+                Form frm = this.CheckExist(typeof(frmLapBienLai));
+                if (frm != null)
+                {
+                    frm.Activate();
+                }
+                else
+                {
+                    frmLapBienLai f = new frmLapBienLai();
+                    f.MdiParent = this;
+                    f.Dock = DockStyle.Fill;
+                    f.btn_luuBL.Enabled = false;
+                    f.btn_thoat.Visible = false;
+                    f.isSave = true;
+                    f.Show();
+                }
+                Loading.HideLoading();
+            }
+            else
+            {
+                XtraMessageBox.Show("Không đủ quyền để truy cập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
         }
 
         private void btn_help_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

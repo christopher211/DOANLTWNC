@@ -15,54 +15,12 @@ namespace ECM_BUS
             HocVien_DAO hvDAO = new HocVien_DAO();
             return hvDAO.LoadDanhSachHV();
         }        
-        public List<HocVien_DTO> danhsachHVTheoMSHV(string mshv)
-        {
-            HocVien_DAO hvDAO = new HocVien_DAO();
-            return hvDAO.LoadDanhSachHVTheoMSHV(mshv);
-        }
-        public List<HocVien_DTO> danhsachHVTheoHoTen(string hoten)
-        {
-            HocVien_DAO hvDAO = new HocVien_DAO();
-            return hvDAO.LoadDanhSachHVTheoHoTen(hoten);
-        }
-        public List<HocVien_DTO> danhsachHVTheoKhoaHoc(string khoa)
-        {
-            HocVien_DAO hvDAO = new HocVien_DAO();
-            return hvDAO.LoadDanhSachHVTheoKhoaHoc(khoa);
-        }
-        public List<HocVien_DTO> danhsachHVTheoLop(string lop)
-        {
-            HocVien_DAO hvDAO = new HocVien_DAO();
-            return hvDAO.LoadDanhSachHVTheoLop(lop);
-        }
-
-
-
         public List<HocVien_DTO> danhSachHVDaNghi()
         {
             HocVien_DAO hvDAO = new HocVien_DAO();
             return hvDAO.LoadDanhSachHVDaNghi();
         }
-        public List<HocVien_DTO> danhsachHVDaNghiTheoMSHV(string mshv)
-        {
-            HocVien_DAO hvDAO = new HocVien_DAO();
-            return hvDAO.LoadDanhSachHVDaNghiTheoMSHV(mshv);
-        }
-        public List<HocVien_DTO> danhsachHVDaNghiTheoHoTen(string hoten)
-        {
-            HocVien_DAO hvDAO = new HocVien_DAO();
-            return hvDAO.LoadDanhSachHVDaNghiTheoHoTen(hoten);
-        }
-        public List<HocVien_DTO> danhsachHVDaNghiTheoKhoaHoc(string khoa)
-        {
-            HocVien_DAO hvDAO = new HocVien_DAO();
-            return hvDAO.LoadDanhSachHVDaNghiTheoKhoaHoc(khoa);
-        }
-        public List<HocVien_DTO> danhsachHVDaNghiTheoLop(string lop)
-        {
-            HocVien_DAO hvDAO = new HocVien_DAO();
-            return hvDAO.LoadDanhSachHVDaNghiTheoLop(lop);
-        }
+       
         public string maHocVienTiepTheo()
         {
             HocVien_DAO hvDAO = new HocVien_DAO();
