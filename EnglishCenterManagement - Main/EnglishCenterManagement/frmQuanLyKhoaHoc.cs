@@ -150,7 +150,11 @@ namespace EnglishCenterManagement
                                     LoadDSKhoaHoc();
                                     btn_themKhoaHoc.Enabled = false;
                                     btn_suaKhoaHoc.Enabled = true;
+                                    btn_capNhatTGKH.Enabled = true;
+                                    btn_xoaKhoaHoc.Enabled = true;
                                     dgcontrol_khoaHoc.Enabled = true;
+                                    btn_lamMoiKhoaHoc.Text = "Làm mới";
+                                    btn_lamMoiKhoaHoc.ImageOptions.Image = EnglishCenterManagement.Properties.Resources.refresh;
                                 }
                                 else
                                 {

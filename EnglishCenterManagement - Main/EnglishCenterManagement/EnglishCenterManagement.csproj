@@ -228,6 +228,12 @@
     <Compile Include="subFormDoiMatKhau_2.Designer.cs">
       <DependentUpon>subFormDoiMatKhau_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="subFormQuenMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subFormQuenMatKhau.Designer.cs">
+      <DependentUpon>subFormQuenMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucKhoiPhucTK.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -377,6 +383,9 @@
     <EmbeddedResource Include="subFormDoiMatKhau_2.resx">
       <DependentUpon>subFormDoiMatKhau_2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="subFormQuenMatKhau.resx">
+      <DependentUpon>subFormQuenMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucKhoiPhucTK.resx">
       <DependentUpon>ucKhoiPhucTK.cs</DependentUpon>
     </EmbeddedResource>
@@ -470,6 +479,8 @@
     <None Include="Resources\refresh1.png" />
     <Content Include="Resources\rotate.png" />
     <None Include="Resources\rotate1.png" />
+    <Content Include="Resources\save.png" />
+    <None Include="Resources\save1.png" />
     <Content Include="Resources\scores.png" />
     <None Include="Resources\scores1.png" />
     <Content Include="Resources\statistical.png" />

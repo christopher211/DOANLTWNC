@@ -73,10 +73,10 @@ namespace ECM_DAO
         public int CheckUsername(string tenDangNhap)
         {
             SqlConnection connect = DataProvider.TaoKetNoi();
-            string strTruyVan = "SELECT TenDangNhap FROM TaiKhoan WHERE TenDangNhap = @username";
+            string strTruyVan = "SELECT TenDangNhap FROM TaiKhoan WHERE TenDangNhap = @TenDangNhap";
 
             SqlParameter[] par = new SqlParameter[1];
-            par[0] = new SqlParameter("@username", tenDangNhap);
+            par[0] = new SqlParameter("@TenDangNhap", tenDangNhap);
 
             SqlDataReader reader = DataProvider.TruyVanDuLieu(strTruyVan, par, connect);
             int ketQua = 0;
@@ -221,14 +221,26 @@ namespace ECM_DAO
         }
         public int ChangePassword(TaiKhoan_DTO tkDTO)
         {
-            string changePass = "UPDATE TaiKhoan SET MatKhau = @matkhau WHERE TenDangNhap = @username";
+            string changePass = "UPDATE TaiKhoan SET MatKhau = @MatKhau WHERE TenDangNhap = @TenDangNhap";
 
             SqlParameter[] parameter = new SqlParameter[2];
-            parameter[0] = new SqlParameter("@username", tkDTO.TenDangNhap);
-            parameter[1] = new SqlParameter("@matkhau", Utilities.GetMD5(tkDTO.MatKhau));
+            parameter[0] = new SqlParameter("@TenDangNhap", tkDTO.TenDangNhap);
+            parameter[1] = new SqlParameter("@MatKhau", Utilities.GetMD5(tkDTO.MatKhau));
 
             SqlConnection connect = DataProvider.TaoKetNoi();
             int ketQua = DataProvider.ExecuteUpdateQuery(changePass, parameter, connect);
+            connect.Close();
+            return ketQua;
+        }
+        public int ResetPassword(string tenDangNhap)
+        {
+            string reset = "UPDATE TaiKhoan SET MatKhau = NULL WHERE TenDangNhap = @TenDangNhap";
+
+            SqlParameter[] parameter = new SqlParameter[1];
+            parameter[0] = new SqlParameter("@TenDangNhap", tenDangNhap);
+
+            SqlConnection connect = DataProvider.TaoKetNoi();
+            int ketQua = DataProvider.ExecuteUpdateQuery(reset, parameter, connect);
             connect.Close();
             return ketQua;
         }

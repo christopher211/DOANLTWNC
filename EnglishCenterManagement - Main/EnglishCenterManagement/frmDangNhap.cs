@@ -131,7 +131,8 @@ namespace EnglishCenterManagement
 
         private void lb_quenMatKhau_Click(object sender, EventArgs e)
         {
-
+            subFormQuenMatKhau sf = new subFormQuenMatKhau();
+            sf.ShowDialog();
         }
     }
 }

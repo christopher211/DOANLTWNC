@@ -129,7 +129,34 @@ namespace EnglishCenterManagement
                     int kq = hvBUS.AddHV(hvDTO);
                     if (kq == 1)
                     {
+                        frmLapBienLai f = new frmLapBienLai();
                         XtraMessageBox.Show(string.Format("Thêm khóa học cho học viên mã {0} thành công!", hvDTO.MSHV), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        f.lb_mahv.Text = this.txt_mshv.Text.Trim();
+                        f.lb_tenhv.Text = this.txt_ho.Text + ' ' + this.txt_ten.Text;
+                        f.lb_gioiTinh.Text = this.cbo_gioiTinh.Text.Trim();
+                        f.lb_sdt.Text = this.txt_sdt.Text.Trim();
+                        f.lb_diaChi.Text = this.txt_diaChi.Text.Trim();
+                        f.lb_ngaySinh.Text = this.dt_ngaySinh.Text.Trim();
+                        f.lb_email.Text = this.txt_email.Text.Trim();
+                        f.lb_maLop.Text = this.lke_lopHoc.Text.Trim();
+                        f.lb_khoahoc.Text = this.lke_khoaHoc.Text.Trim();
+                        f.lb_tenkh.Text = this.lke_khoaHoc.GetColumnValue("TenKH").ToString().Trim();
+                        f.lb_hocPhi.Text = this.lke_khoaHoc.GetColumnValue("HocPhi").ToString().Trim();
+                        f.lb_ngayBatDau.Text = DateTime.Parse(this.lke_khoaHoc.GetColumnValue("NgayBatDau").ToString()).ToShortDateString();
+                        f.lb_lichHoc.Text = this.lke_lopHoc.GetColumnValue("LichHoc").ToString().Trim();
+                        f.lb_thoiGian.Text = this.lke_lopHoc.GetColumnValue("GioBatDau").ToString().Trim();
+                        f.lb_manv.Text = this.lke_lopHoc.GetColumnValue("MaNV").ToString().Trim();
+                        //f.lb_nguoiLapBL.Text = "";
+
+                        f.dgcontrol_bienLai.Enabled = false;
+                        f.btn_thoat.Visible = true;
+                        f.BackColor = Color.FromArgb(224, 224, 224);
+                        f.FormBorderEffect = FormBorderEffect.Shadow;
+
+                        Loading.ShowReportLoading();
+                        f.ShowDialog();
+                        Loading.HideLoading();
+
                         ucQLHV_DanhSach.LoadDSHV();
                         this.Close();
                     }

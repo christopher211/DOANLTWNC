@@ -95,5 +95,10 @@ namespace ECM_BUS
             TaiKhoan_DAO tkDAO = new TaiKhoan_DAO();
             return tkDAO.ChangePassword(tkDTO);
         }
+        public int ResetPassword(string tenDangNhap)
+        {
+            TaiKhoan_DAO tkDAO = new TaiKhoan_DAO();
+            return tkDAO.ResetPassword(tenDangNhap);
+        }
     }
 }

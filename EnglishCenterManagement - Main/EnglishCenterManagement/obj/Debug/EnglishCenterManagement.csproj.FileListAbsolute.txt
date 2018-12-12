@@ -536,3 +536,4 @@ D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main
 D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.subFormDoiMatKhau.resources
 D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.ReportWaitingForm.resources
 D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.subFormDoiMatKhau_2.resources
+D:\1. ProjectVS\DoAn - Important\DoAn - Important\EnglishCenterManagement - Main\EnglishCenterManagement\obj\Debug\EnglishCenterManagement.subFormQuenMatKhau.resources

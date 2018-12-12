@@ -218,7 +218,10 @@ namespace EnglishCenterManagement
                         LoadDSLop();
                         btn_themLopHoc.Enabled = false;
                         btn_suaLopHoc.Enabled = true;
+                        btn_xoaLopHoc.Enabled = true;
                         dgcontrol_lopHoc.Enabled = true;
+                        btn_lamMoiLopHoc.Text = "Làm mới";
+                        btn_lamMoiLopHoc.ImageOptions.Image = EnglishCenterManagement.Properties.Resources.refresh;
                     }
                     else
                     {
